@@ -35,19 +35,19 @@
 
 	<div class="page">	
 
-		<header class="container-fluid">
+		<header style="border: 1px solid blue; background: grey">
 
-			<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-inverse navbar-fixed-top" id="main_nav" role="navigation" style="border: 1px solid red;">
 
-				<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar" role="navigation">
+				<div class="container"style="border: 1px solid maroon;">
 
-			        <a class="navbar-brand" href="#">Airbnb Logo</a>
+			        <a class="navbar-brand" href="#"><img src="" alt="">Airbnb Logo</a>
 
 			        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
 			            <span class="navbar-toggler-icon"></span>
 			        </button>
 
-			        <ul class="collapse navbar-collapse" id="">
+			        <ul class="collapse navbar-collapse" id="" style="border: 1px solid green;">
 
 			            <li class="navbar-nav mr-auto">
 
@@ -63,7 +63,7 @@
 
 				              		<a class="nav-link" href="#">Where's Hot</a>
 
-              		                <div class="dropdown-menu" aria-labelledby="dropdown07">
+              		                <div class="dropdown-menu" aria-labelledby="">
 
               			                <a class="dropdown-item" href="#">Action</a>
               			                <a class="dropdown-item" href="#">Another action</a>
@@ -75,9 +75,9 @@
 
 				            	<li class="nav-item dropdown">
 
-				              		<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Region</a>
+				              		<a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Region</a>
 
-					                <div class="dropdown-menu" aria-labelledby="dropdown07">
+					                <div class="dropdown-menu" aria-labelledby="">
 
 						                <a class="dropdown-item" href="#">Action</a>
 						                <a class="dropdown-item" href="#">Another action</a>
@@ -91,7 +91,7 @@
 
 			          	</li>
 
-			          	<li id="socials">
+			          	<li class="socials">
 			          		
 			          		<ul>
 
@@ -145,18 +145,18 @@
 
 			        </ul>
 
-				</nav>	
-	
-			</div>
-	
+			    </div>
+
+			</nav>	
+		
 		</header>
 
 
 		<section id="hero" class="hero">
 
-			<div class="container">
+			<div class="container row align-items-center">
 
-				<section class="listing_filters">
+				<section class="listing_filters col-8" style="border: 1px solid beige;">
 
 					<p>HOME AWAY FROM HOME <span>We have the whole world covered. Just choose your spot</span></p>
 					
@@ -169,13 +169,13 @@
 
 				</section>
 
-				<section class="feedback">
+				<section class="feedback d-flex flex-column col-4" style="border: 1px solid teal">
 
 					<section class="ratings">
 						
 						<div class="customer_affairs_ratings">
 							
-							<p>Customer Affairs Ratings: <meter low="0.25" high="0.75" value="4.1" optimum="0.70">4.1 out of 5!</meter></p>
+							<p>Customer Affairs Ratings: <meter min=0 low="0.25" high="0.75" value="4.1" optimum="0.70" max="5">4.1 out of 5!</meter></p>
 
 							<span class="score"><strong>4.1/</strong>5</span>
 
@@ -185,7 +185,7 @@
 						
 						<div class="trust_pilot_ratings">
 							
-							<p>Trust Pilot Ratings: <meter low="0.25" high="0.75" value="3.8" optimum="0.70">3.8 out of 5!</meter></p>
+							<p>Trust Pilot Ratings: <meter min=0 low="0.25" high="0.75" value="3.8" optimum="0.70" max="5">3.8 out of 5!</meter></p>
 
 							<span class="score"><strong>3.8/</strong>5</span>
 
