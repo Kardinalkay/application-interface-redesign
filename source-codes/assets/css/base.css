@@ -1,0 +1,12 @@
+:root {
+  --orange_red: #ff5a5f;
+  --golden_rod: #fab715;
+  --dodger_blue: #0376f4;
+  --skyblue: #0c56b9;
+  --grey: #222;
+  --light_grey: #efefef;
+  --black: #000;
+  --font_primary: "Open Sans", Arial, sans-serif;
+  --font_secondary: Roboto, Arial, sans-serif;
+  --font_tertiary: "Century Gothic", Arial, sans-serif;
+}
