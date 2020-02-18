@@ -1293,7 +1293,7 @@ a.alert:hover {
   overflow: hidden;
   padding: 0;
   right: auto;
-  left: 0;
+  left: 50px;
   border: 2px solid var(--dodger_blue);
 }
 
@@ -1352,4 +1352,24 @@ a.alert:hover {
 
 .listings_img .listings_img_single {
   position: relative;
+}
+
+.single_entry_listing .view_more {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 10px;
+  line-height: 24px;
+  padding: 8px 12px;
+  color: white;
+  font-weight: bolder;
+  font-family: var(--font_tertiary);
+  text-transform: uppercase;
+  background: var(--orange_red);
+  border: 2px solid white;
+  transition: opacity .2s;
+}
+
+.single_entry_listing .view_more:hover, .single_entry_listing .view_more:focus {
+  opacity: .7;
 }
