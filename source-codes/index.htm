@@ -16,10 +16,8 @@
 	<!--Address I.E-->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge ">
 
+	<meta name="theme-color" content="#fafafa">
 
-	<!--Stylesheet Links-->
-	<link rel="stylesheet" href="assets/css/normalize.css">
-	<link rel="stylesheet" href="assets/css/site.css">
 
 	<!--Font Links-->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,900&display=swap" rel="stylesheet">
@@ -29,7 +27,9 @@
 
 	<link rel="apple-touch-icon" href="icon.png">
 
-	<meta name="theme-color" content="#fafafa">
+	<!--Stylesheet Links-->
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/site.css">
 
 </head>
 
@@ -43,13 +43,13 @@
 
 				<div class="container"style="border: 1px solid maroon;">
 
-			        <a class="navbar-brand" href="#"><img src="" alt="">Airbnb Logo</a>
+			        <a class="navbar-brand" href="#"><img src="assets/images/airbnb_logo_48X48.png" alt="Airbnb Logo"></a>
 
 			        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
 			            <span class="navbar-toggler-icon"></span>
 			        </button>
 
-			        <ul class="collapse navbar-collapse" id="" style="border: 1px solid green;">
+			        <ul class="collapse navbar-collapse" id="main_nav_links" style="border: 1px solid green;">
 
 			            <li class="navbar-nav mr-auto">
 
@@ -63,7 +63,7 @@
 
 				            	<li class="nav-item dropdown">
 
-				              		<a class="nav-link" href="#">Where's Hot</a>
+				              		<a class="nav-link" href="#">Where's Hot <i class="fa fa-caret-down"></i></a>
 
               		                <div class="dropdown-menu" aria-labelledby="">
 
@@ -77,7 +77,7 @@
 
 				            	<li class="nav-item dropdown">
 
-				              		<a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Region</a>
+				              		<a class="nav-link dropdown-toggle" href="#" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Region <i class="fa fa-caret-down"></i></a>
 
 					                <div class="dropdown-menu" aria-labelledby="">
 
@@ -99,19 +99,19 @@
 
 		          				<li class="social_twitter">
 
-		          			  		<a class="nav-link" href="#"><span class="sr-only">twitter</span></a>
+		          			  		<a class="nav-link" href="#"><i class="fa fa-twitter fa-size"></i><span class="sr-only">twitter</span></a>
 
 		          				</li>
 
 	          					<li class="social_facebook">
 
-	          				  		<a class="nav-link" href="#"><span class="sr-only">facebook</span></a>
+	          				  		<a class="nav-link" href="#"><i class="fa fa-facebook fa-size"></i><span class="sr-only">facebook</span></a>
 
 	          					</li>
 
           						<li class="social_instagram">
 
-          					  		<a class="nav-link" href="#"><span class="sr-only">instagram</span></a>
+          					  		<a class="nav-link" href="#"><i class="fa fa-instagram fa-size"></i><span class="sr-only">instagram</span></a>
 
           						</li>
 
@@ -119,25 +119,27 @@
 
 			          	</li>
 
-			          	<li class="register">
+			          	<li class="register col-4" style="border: 1px solid yellow">
 
-			          		<ul>
+			          		<ul class="d-flex row">
 
-		          				<li class="lang">
+		          				<li class="lang col-md-auto">
 
-		          			  		<a class="nav-link" href="#"> <span class="sr-only">language</span>EN</a>
+									<img class="canada_flag" src="assets/images/circular_flag_canada_28x28.png" alt="canada_english_language">
 
-		          				</li>
-
-		          				<li class="mobiles_only">
-
-		          			  		<a class="nav-link" href="callto:647XXXXXXX"> <span class="sr-only">call</span></a>
+		          			  		<a class="nav-link" href="#"><span class="sr-only">language</span>EN <i class="fa fa-caret-down"></i></a>
 
 		          				</li>
 
-		          				<li class="register_btn">
+		          				<li class="mobiles_only col-md-auto" style="border: 1px solid red">
 
-		          			  		<a class="nav-link" href="#"> <span class="sr-only">instagram</span></a>
+		          			  		<a style="border: 1px solid pink" class="nav-link" href="callto:647XXXXXXX"><span class="sr-only">call</span><i class="fa fa-phone fa-size"></i></a>
+
+		          				</li>
+
+		          				<li class="register_btn col-md-auto" style="border: 1px solid indigo;">
+
+		          			  		<a class="nav-link" href="#">REGISTER</a>
 
 		          				</li>		          			
 
