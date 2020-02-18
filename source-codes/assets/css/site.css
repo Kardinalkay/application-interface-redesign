@@ -1430,10 +1430,29 @@ a.alert:hover {
 .site_footer {
   background: black;
   padding: 3em;
+  font-size: 1em;
+  font-family: var(--font_primary);
+  font-weight: lighter;
 }
 
 .site_footer_box {
   border-top: 2px solid white;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.site_footer .menu_head {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: var(--orange_red);
+}
+
+.site_footer p {
+  color: #fff;
+}
+
+.site_footer .main_links > * {
+  padding: .5em;
+  margin-bottom: 1.5em;
+  background: rgba(255,255,255,.1);
 }
