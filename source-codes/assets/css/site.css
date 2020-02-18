@@ -1199,7 +1199,7 @@ ul li:last-of-type {
 }
 
 .testimonials .client {
-  background: var(--light_grey);
+  background: rgba(255,255,255,.5);
   color: black;
   padding: 5px 10px 5px 35px;
   margin-right: -10px;
@@ -1416,7 +1416,6 @@ a.alert:hover {
   right: auto;
 }
 
-
 .single_entry_listing .price {
   left: auto;
   right: 0;
@@ -1429,6 +1428,21 @@ a.alert:hover {
 
 .single_entry_listing .view_more:hover, .single_entry_listing .view_more:focus {
   opacity: .7;
+}
+
+
+/*THE META*/
+
+.meta {
+  transform: translateY(60px);
+  background: var(--skyblue);
+  padding: 0.7em;
+}
+
+.meta li {
+  border-right: 1px solid rgba(255,255,255,.3);
+  font-size: .85em;
+  color: #fff;
 }
 
 
@@ -1489,4 +1503,8 @@ a.alert:hover {
   bottom: calc(1em + 20px + 1em);
   left: calc(3em + 20px + .5em);
   opacity: .3;
+}
+
+.link_to_details {
+  display: block;
 }
