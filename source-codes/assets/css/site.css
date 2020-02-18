@@ -1263,6 +1263,7 @@ a.alert:hover {
   position: relative;
   background-color: rgba(239,239,239,.3);
   height: 300px;
+  margin-bottom: 5em;
 }
 
 .single_entry_listing, .listings_img {
@@ -1272,9 +1273,19 @@ a.alert:hover {
   z-index: 1;
 }
 
+.single_list:nth-child(even) .single_entry_listing {
+  right: 250px;
+  text-align: right;
+}
+
+.single_list:nth-child(even) .listings_img {
+  left: auto;
+  right: 0;
+}
+
 .single_entry_listing {
   padding: 20px 10px;
-  height: 280px;
+  height: 320px;
 }
 
 .single_entry_listing .content {
@@ -1383,6 +1394,17 @@ a.alert:hover {
   border: 2px solid white;
   transition: opacity .2s;
 }
+
+.single_list:nth-child(even) .view_more {
+  left: auto;
+  right: 10px;
+}
+
+.single_list:nth-child(even) .price {
+  left: 0;
+  right: auto;
+}
+
 
 .single_entry_listing .price {
   left: auto;
