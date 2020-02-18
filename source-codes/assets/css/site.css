@@ -1263,7 +1263,7 @@ a.alert:hover {
   position: relative;
   background-color: rgba(239,239,239,.3);
   height: 300px;
-  margin-bottom: 5em;
+  margin-bottom: 12em;
 }
 
 .single_entry_listing, .listings_img {
