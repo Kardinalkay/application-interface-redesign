@@ -147,7 +147,7 @@ ul, ol {
   list-style: none;
 }
 
-ul li {
+ul li:not(header ul li) {
   margin-bottom: 1em;
 }
 
