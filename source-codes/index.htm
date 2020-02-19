@@ -18,8 +18,6 @@
 
 	<meta name="theme-color" content="#fafafa">
 
-	<meta charset="UTF-8">
-
 	<!--Font Links-->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,900&display=swap" rel="stylesheet" media="all">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700i&display=swap" rel="stylesheet" media="all">
@@ -43,53 +41,53 @@
 
 		<header role="banner">
 
-			<nav class="navbar navbar-expand-lg navbar-inverse navbar-fixed-top" id="main_nav" role="navigation" \>
+			<nav class="navbar" id="main_nav" role="navigation">
 
-				<div class="container">
+				<div class="navbar_box">
 
-			        <a class="navbar-brand" href="#"><img src="assets/images/airbnb_logo_48X48.png" alt="Airbnb Logo"></a>
+			        <a class="navbar_brand" href="#"><img src="assets/images/airbnb_logo_48X48.png" alt="Airbnb Logo"></a>
 
-			        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+			        <button class="toggle_menu" type="button">
 			            <span class="navbar-toggler-icon"></span>
 			        </button>
 
-			        <ul class="collapse navbar-collapse" id="main_nav_links">
+			        <ul class="main_nav_links">
 
-			            <li class="navbar-nav mr-auto">
+			            <li class="navbar_nav">
 
 			            	<ul>
 
-				            	<li class="nav-item active">
+				            	<li>
 
-				              		<a class="nav-link" href="#">Host <span class="sr-only">(current)</span></a>
-
-				            	</li>
-
-				            	<li class="nav-item dropdown">
-
-				              		<a class="nav-link" href="#">Where's Hot <i class="fa fa-caret-down"></i></a>
-
-              		                <div class="dropdown-menu" aria-labelledby="">
-
-              			                <a class="dropdown-item" href="#">Action</a>
-              			                <a class="dropdown-item" href="#">Another action</a>
-              			                <a class="dropdown-item" href="#">Something else here</a>
-
-              		             	</div>
+				              		<a class="nav_link current" href="#">Host <span>(current)</span></a>
 
 				            	</li>
 
-				            	<li class="nav-item dropdown">
+				            	<li class="dropdown">
 
-				              		<a class="nav-link dropdown-toggle" href="#" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Region <i class="fa fa-caret-down"></i></a>
+				              		<a class="nav_link" href="#">Where's Hot <i class="fa fa-caret-down"></i></a>
 
-					                <div class="dropdown-menu" aria-labelledby="">
+              		                <ul class="dropdown-menu">
 
-						                <a class="dropdown-item" href="#">Action</a>
-						                <a class="dropdown-item" href="#">Another action</a>
-						                <a class="dropdown-item" href="#">Something else here</a>
+              			                <li><a class="nav_link" href="#">Action</a></li>
+              			                <li><a class="nav_link" href="#">Another action</a></li>
+              			                <li><a class="nav_link" href="#">Something else here</a></li>
 
-					             	</div>
+              		             	</ul>
+
+				            	</li>
+
+				            	<li class="dropdown">
+
+				              		<a class="nav_link" href="#">Region <i class="fa fa-caret-down"></i></a>
+
+              		                <ul class="dropdown-menu" aria-labelledby="">
+
+              			                <li><a class="nav_link" href="#">Action</a></li>
+              			                <li><a class="nav_link" href="#">Another action</a></li>
+              			                <li><a class="nav_link" href="#">Something else here</a></li>
+
+              		             	</ul>
 
 				            	</li>
 
@@ -103,19 +101,19 @@
 
 		          				<li class="social_twitter">
 
-		          			  		<a class="nav-link" href="#"><i class="fa fa-twitter fa-size"></i><span class="sr-only">twitter</span></a>
+		          			  		<a class="nav_link" href="#"><i class="fa fa-twitter fa-size"></i><span>twitter</span></a>
 
 		          				</li>
 
 	          					<li class="social_facebook">
 
-	          				  		<a class="nav-link" href="#"><i class="fa fa-facebook fa-size"></i><span class="sr-only">facebook</span></a>
+	          				  		<a class="nav_link" href="#"><i class="fa fa-facebook fa-size"></i><span>facebook</span></a>
 
 	          					</li>
 
           						<li class="social_instagram">
 
-          					  		<a class="nav-link" href="#"><i class="fa fa-instagram fa-size"></i><span class="sr-only">instagram</span></a>
+          					  		<a class="nav_link" href="#"><i class="fa fa-instagram fa-size"></i><span>instagram</span></a>
 
           						</li>
 
@@ -123,27 +121,27 @@
 
 			          	</li>
 
-			          	<li class="register col-4">
+			          	<li class="register">
 
-			          		<ul class="d-flex row">
+			          		<ul>
 
-		          				<li class="lang col-md-auto">
+		          				<li class="lang">
 
 									<img class="canada_flag" src="assets/images/circular_flag_canada_28x28.png" alt="canada_english_language">
 
-		          			  		<a class="nav-link" href="#"><span class="sr-only">language</span>EN <i class="fa fa-caret-down"></i></a>
+		          			  		<a class="nav_link" href="#">EN <i class="fa fa-caret-down"></i><span>language</span></a>
 
 		          				</li>
 
-		          				<li class="mobiles_only col-md-auto" >
+		          				<li class="mobile">
 
-		          			  		<a class="nav-link" href="callto:647XXXXXXX"><span class="sr-only">call</span><i class="fa fa-phone fa-size"></i></a>
+		          			  		<a class="nav_link" href="callto:647XXXXXXX"><i class="fa fa-phone fa-size"></i><span>call</span></a>
 
 		          				</li>
 
-		          				<li class="register_btn col-md-auto">
+		          				<li class="register_btn">
 
-		          			  		<a class="nav-link" href="#">REGISTER</a>
+		          			  		<a class="nav_link" href="#">REGISTER</a>
 
 		          				</li>		          			
 
@@ -164,185 +162,181 @@
 
 			<div class="frame">
 
-				<div class="container row align-items-center">
+				<section class="listing_filters">
 
-					<section class="listing_filters col-8">
+					<p class="watchword">HOME AWAY FROM HOME <span>We have the whole world covered. Just choose your spot</span></p>
+					
+					<form name="form_listing_filter" id="form_listing_filter" class="form_listing_filter" action="#">
 
-						<p class="watchword">HOME AWAY FROM HOME <span>We have the whole world covered. Just choose your spot</span></p>
+				        <div class="form-group">
+
+				        	<select id="location" class="location">
+
+				        		<optgroup label="America">
+
+				        			<option value=""></option>
+
+				        		    <option style="display: none;" value="CN">Canada</option>
+
+				        		    <option value="US">USA</option>
+
+				        		    <option value="MX">Mexico</option>
+				        		
+				        		</optgroup>
+
+				        		<optgroup label="Africa">
+
+				        		    <option value="NG">Nigeria</option>
+
+				        		    <option value="EG">Egypt</option>
+
+				        		    <option value="ET">Ethiopia</option>
+				        		
+				        		</optgroup>
+
+				        		<optgroup label="Europe">
+
+				        		    <option value="UK">United Kingdom</option>
+
+				        		    <option value="SP">Spain</option>
+
+				        		    <option value="FR">France</option>
+				        		
+				        		</optgroup>
+
+				        	</select>
+
+				            <label for="location">				        	
+
+				            	<i class="fa fa-map-marker"></i>
+
+								Country, Town<span>Everywhere</span>
+
+							</label>
+
+				        </div>
+
+				        <div class="form-group">
+
+				            <select class="duration" id="duration">
+
+				            	<option value=""></option>
+
+				            	<option value="1">1day</option>
+
+				            	<option value="2">2days</option>
+
+				            	<option value="3">3days</option>
+
+				            	<option value="4">4days</option>
+
+				            	<option value="5">5days</option>
+
+				            	<option value="6">6days</option>
+
+				            	<option value="7">7days</option>
+
+				            	<option value="8">8days</option>
+
+				            	<option value="9">9days</option>
+
+				            	<option value="11">11days</option>
+
+				            	<option value="12">12days</option>
+
+				            	<option value="13">13days</option>
+
+				            	<option value="14">14days</option>
+
+				            	<option value="15">15days</option>
+
+				            	<option value="16">16days</option>
+
+				            </select> 
+
+				            <label for="duration">Duration <span>2 weeks</span></label> 
+
+				        </div>
+
+				        <button type="submit" class="submit">SEARCH</button>						
+					
+					</form>
+
+					<button class="more_listing_options">More Search Options <i class="fa fa-plus"></i></button>
+
+				</section>
+
+				<section class="feedback">
+
+					<section class="ratings">
 						
-						<form name="form_listing_filter" id="form_listing_filter" class="form-inline form_listing_filter" action="#">
+						<div class="customer_affairs_ratings">
+							
+							<p>Customer Affairs Ratings: <meter min=0 low="0.25" high="0.75" value="4.1" optimum="0.70" max="5">4.1 out of 5!</meter></p>
 
-					        <div class="form-group">
+							<figure>
 
-					            <label for="location">				        	
+								<span class="score"><strong>4.1/</strong>5</span>
+								
+								<img src="assets/images/green_bar_56X56.png" alt="Customer Affairs Ratings:- 4.1 out of 5">
 
-					            	<i class="fa fa-map-marker"></i>
+								<figcaption>
+									<span class="rating_service">Customer Affairs</span>
+								</figcaption>
 
-									Country, Town<span>Everywhere</span>
+							</figure>
 
-								</label>
-
-					            <select id="location" class="location form-control">
-
-					            	<optgroup label="America">
-
-					            		<option value=""></option>
-
-					            	    <option style="display: none;" value="CN">Canada</option>
-
-					            	    <option value="US">USA</option>
-
-					            	    <option value="MX">Mexico</option>
-					            	
-					            	</optgroup>
-
-					            	<optgroup label="Africa">
-
-					            	    <option value="NG">Nigeria</option>
-
-					            	    <option value="EG">Egypt</option>
-
-					            	    <option value="ET">Ethiopia</option>
-					            	
-					            	</optgroup>
-
-					            	<optgroup label="Europe">
-
-					            	    <option value="UK">United Kingdom</option>
-
-					            	    <option value="SP">Spain</option>
-
-					            	    <option value="FR">France</option>
-					            	
-					            	</optgroup>
-
-					            </select>
-
-					        </div>
-
-					        <div class="form-group">
-
-					            <label for="duration">Duration <span>2 weeks</span></label>
-
-					            <select class="duration form-control" id="duration">
-
-					            	<option value=""></option>
-
-					            	<option value="1">1day</option>
-
-					            	<option value="2">2days</option>
-
-					            	<option value="3">3days</option>
-
-					            	<option value="4">4days</option>
-
-					            	<option value="5">5days</option>
-
-					            	<option value="6">6days</option>
-
-					            	<option value="7">7days</option>
-
-					            	<option value="8">8days</option>
-
-					            	<option value="9">9days</option>
-
-					            	<option value="11">11days</option>
-
-					            	<option value="12">12days</option>
-
-					            	<option value="13">13days</option>
-
-					            	<option value="14">14days</option>
-
-					            	<option value="15">15days</option>
-
-					            	<option value="16">16days</option>
-
-					            </select>  
-
-					        </div>
-
-					        <button type="submit" class="submit">SEARCH</button>						
+						</div>
 						
-						</form>
+						<div class="trust_pilot_ratings">
+							
+							<p>Trust Pilot Ratings: <meter min=0 low="0.25" high="0.75" value="3.8" optimum="0.70" max="5">3.8 out of 5!</meter></p>
 
-						<button class="more_listing_options">More Search Options <i class="fa fa-plus"></i></button>
+							<figure>
+
+								<span class="score"><strong>3.8/</strong>5</span>
+
+								<img src="assets/images/blue_bar_56X56.png" alt="Trust Pilot Affairs Ratings:- 3.8 out of 5">
+								
+								<figcaption>
+									<span class="rating_service">Trust Pilot</span>
+								</figcaption>
+								
+							</figure>
+
+						</div>
+						
+					</section>					
+					
+					<section class="testimonials">	
+
+						<header>
+
+							<img class="airbnb_client" src="assets/images/user_img_56x56.png" alt="airbnb_client">
+
+							<p class="client">Laila Mal-T</p>
+
+							<p class="country">Ukraine</p>
+
+						</header>	
+
+						<p>
+							Airbnb always worked for me. Honoured all agreements. I have stayed in 2 diff.
+							private Airbnb apartments in Barcelona,	1 in Vienna, and 1 in Bordeaux...
+						</p>				
+
+						<footer class="client_ranking">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star starless"></i>
+						</footer>
+
 
 					</section>
 
-					<section class="feedback d-flex flex-column col-4">
-
-						<section class="ratings d-flex justify-content-around align-items-center">
-							
-							<div class="customer_affairs_ratings">
-								
-								<p class="sr-only">Customer Affairs Ratings: <meter min=0 low="0.25" high="0.75" value="4.1" optimum="0.70" max="5">4.1 out of 5!</meter></p>
-
-								<figure>
-
-									<span class="score"><strong>4.1/</strong>5</span>
-									
-									<img src="assets/images/green_bar_56X56.png" alt="Customer Affairs Ratings:- 4.1 out of 5">
-
-									<figcaption>
-										<span class="rating_service">Customer Affairs</span>
-									</figcaption>
-
-								</figure>
-
-							</div>
-							
-							<div class="trust_pilot_ratings">
-								
-								<p class="sr-only">Trust Pilot Ratings: <meter min=0 low="0.25" high="0.75" value="3.8" optimum="0.70" max="5">3.8 out of 5!</meter></p>
-
-								<figure>
-
-									<span class="score"><strong>3.8/</strong>5</span>
-
-									<img src="assets/images/blue_bar_56X56.png" alt="Trust Pilot Affairs Ratings:- 3.8 out of 5">
-									
-									<figcaption>
-										<span class="rating_service">Trust Pilot</span>
-									</figcaption>
-									
-								</figure>
-
-							</div>
-							
-						</section>					
-						
-						<section class="testimonials">	
-
-							<header>
-
-								<img class="airbnb_client" src="assets/images/user_img_56x56.png" alt="airbnb_client">
-
-								<p class="client">Laila Mal-T</p>
-
-								<p class="country">Ukraine</p>
-
-							</header>	
-
-							<p>
-								Airbnb always worked for me. Honoured all agreements. I have stayed in 2 diff.
-								private Airbnb apartments in Barcelona,	1 in Vienna, and 1 in Bordeaux...
-							</p>				
-
-							<footer class="client_ranking">
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star starless"></i>
-							</footer>
-
-
-						</section>
-
-					</section>
-
-				</div>	
+				</section>
 
 			</div>		
 
@@ -1130,19 +1124,19 @@
 
 	          				<li class="social_twitter">
 
-	          			  		<a class="nav-link" href="#"><i class="fa fa-twitter fa-size"></i><span class="sr-only">twitter</span></a>
+	          			  		<a class="nav_link" href="#"><i class="fa fa-twitter fa-size"></i><span>twitter</span></a>
 
 	          				</li>
 
 	      					<li class="social_facebook">
 
-	      				  		<a class="nav-link" href="#"><i class="fa fa-facebook fa-size"></i><span class="sr-only">facebook</span></a>
+	      				  		<a class="nav_link" href="#"><i class="fa fa-facebook fa-size"></i><span>facebook</span></a>
 
 	      					</li>
 
 	  						<li class="social_instagram">
 
-	  					  		<a class="nav-link" href="#"><i class="fa fa-instagram fa-size"></i><span class="sr-only">instagram</span></a>
+	  					  		<a class="nav_link" href="#"><i class="fa fa-instagram fa-size"></i><span>instagram</span></a>
 
 	  						</li>
 
