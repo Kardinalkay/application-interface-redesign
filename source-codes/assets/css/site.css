@@ -1071,6 +1071,7 @@ ul li:last-of-type {
 
   .form-inline .form-group {
     display: flex;
+    position: relative;
     flex: 0 0 auto;
     flex-flow: row wrap;
     align-items: center;
@@ -1092,7 +1093,6 @@ ul li:last-of-type {
   border: 0;
   cursor: pointer;
   background-color: #fff;
-  background-clip: padding-box;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -1113,19 +1113,12 @@ ul li:last-of-type {
 }
 
 .form_listing_filter label {
-  position: relative;
-  left: 100px;
+  position: absolute;
+  top: 3px;
+  left: 2.5em;
   font-size: .6em;
   display: inline-block;
-  font-weight: 600;
-}
-
-.form_listing_filter .form-group:first-child {
-  margin-left: -70px;
-}
-
-.form_listing_filter .form-group:nth-of-type(2) {
-  margin-left: -43px;
+  font-weight: 900;
 }
 
 .form_listing_filter label span {
