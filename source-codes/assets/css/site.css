@@ -1193,6 +1193,13 @@ a.alert:hover {
 }
 
 
+/*THE ASIDE*/
+
+.main_sidebar {
+  flex: 0 0 33.3%;
+  max-width: 33.3%;
+}
+
 
 /*THE FOOTER*/
 
