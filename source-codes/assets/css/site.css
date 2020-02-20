@@ -237,7 +237,7 @@ header[role=banner] {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-aroundt co;
     font-size: 0.9em;
     font-family: var(--font_primary);
 }
@@ -370,9 +370,8 @@ header[role=banner] {
 }
 
 .navbar_nav .sub_menu ul li {
-  flex: 0 0 50%;
+  flex-basis: 50%;
 }
-
 
 .navbar_nav .nav_link:hover {
   text-shadow: -1px 1px 0 rgba(255,90,95, .3);
@@ -380,10 +379,6 @@ header[role=banner] {
 
 .navbar_nav .sub_menu:hover ul {
   display: flex;
-  flex: 0 0 30em;
-  width: 30em;
-  max-width: 30em;
-  flex-flow: row wrap;
 }
 
 .register {
@@ -942,6 +937,31 @@ a.alert:hover {
   max-width: 25%;
 }
 
+.listings_nav {
+  margin: auto;
+  text-align: center;
+}
+
+.listings_nav li {
+  display: inline-block;
+}
+
+.listings_nav li a {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 0 2px;
+  color: var(--grey);
+  border: solid var(--skyblue) thin;
+  color: var(--skyblue);
+  text-transform: uppercase;
+}
+
+.listings_nav li a.current {
+  background-color: #272727;
+  border: none;
+  cursor: default;
+  color: #ffffff;
+}
 
 /*THE ASIDE*/
 
