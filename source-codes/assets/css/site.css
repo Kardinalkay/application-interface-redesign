@@ -1117,7 +1117,7 @@ a.alert:hover {
   transition: left .25s ease-out;
 }
 
-.main_sidebar .view_more:hover span, .main_sidebar .view_more:hover span {
+.main_sidebar .view_more:hover span, .main_sidebar .view_more:focus span {
   left : 0;
   opacity: .9;
 }
