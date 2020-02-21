@@ -893,9 +893,9 @@ a.alert:hover {
   left: 10px;
   padding: 8px 12px;
   color: white;
+  text-transform: uppercase;
   font-weight: bolder;
   font-family: var(--font_tertiary);
-  text-transform: uppercase;
   background: var(--orange_red);
   border: 2px solid white;
   transition: opacity .2s;
@@ -1145,6 +1145,8 @@ a.alert:hover {
   display: inline-block;
   padding: 0 1em;
   z-index: 1;
+  text-transform: uppercase;
+  font-family: var(--font_tertiary);
   color: var(--light_grey);
   background: var(--dodger_blue);
   transition: left .25s ease-out;
@@ -1520,6 +1522,52 @@ ul.host_info li span em {
   color: #272727;
 }
 
+.timestamp .user_avatar {
+  margin-right: 1em;
+}
+
+.review_date {
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.review .post_hidden {
+  display: none;
+}
+
+.review_user_info, .review_note .note_meta {
+  border: 1px solid black;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.review_note p {
+  margin-bottom: 1.5em;
+}
+
+.review_note .note_meta li {
+  padding: 0.25em 0;
+}
+
+.review_note .note_meta li b {
+  margin-right: 1em;
+}
+
+.review_user_info li {
+  padding: 0.25em 0;
+  text-align: right;
+  color: var(--orange_red);
+}
+
+.note_meta .vote_list ul li {
+  font-size: .9em;
+}
+
+.note_meta .vote_list ul li a {
+  margin-right: .5em;
+}
+
+
 
 /*related stays*/
 
@@ -1589,7 +1637,6 @@ ul.host_info li span em {
   right: 0;
 }
 
-
 .related_stays_collection .gallery_box figure:before {
   display: none;
 }
@@ -1625,46 +1672,8 @@ a.request_more .fa, a.report_problem .fa {
   margin-right: .5em;
 }
 
-.timestamp .user_avatar {
-  margin-right: 1em;
-}
 
-.review_date {
-  font-style: normal;
-  font-weight: bolder;
-}
 
-.review_user_info, .review_note .note_meta {
-  border: 1px solid black;
-  padding: 1em;
-  margin: 1em 0;
-}
-
-.review_note p {
-  margin-bottom: 1.5em;
-}
-
-.review_note .note_meta li {
-  padding: 0.25em 0;
-}
-
-.review_note .note_meta li b {
-  margin-right: 1em;
-}
-
-.review_user_info li {
-  padding: 0.25em 0;
-  text-align: right;
-  color: var(--orange_red);
-}
-
-.note_meta .ovte_list ul li {
-  font-size: .8em;
-}
-
-.note_meta .vote_list ul li a {
-  margin-right: .5em;
-}
 
 @keyframes fade {
   0% {
