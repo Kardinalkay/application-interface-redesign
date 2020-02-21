@@ -1317,22 +1317,26 @@ a.alert:hover {
   background-color: var(--golden_rod);
 }
 
-body.details .meta {
+.body_details .meta {
   background-color: var(--light_grey);
   margin-bottom: 1.5em;
 }
 
-body.details .meta li {
+.body_details .meta li {
   color: var(--grey);
 }
 
 .book_now {
   display: block;
   min-width: 3em;
-  text-align: right;
+  text-align: left;
+  position: relative;
 }
 
 .book_now a {
+  margin-left: auto;
+  position: absolute;
+  right: 0;
   border: 1px solid var(--orange_red);
   display: inline-block;
   color: var(--orange_red);
@@ -1355,7 +1359,7 @@ body.details .meta li {
   background: rgba(3,118,244,.5);
 }
 
-.details h3 {
+.details h3, .video h3, .owner_provisions h3, .map h3 {
   line-height: 3em;
   text-align: center;
   color: var(--light_grey);
@@ -1404,4 +1408,34 @@ body.details .meta li {
 hr.sectioning {
   border: 2px solid var(--orange_red);
   margin: 1.5em 0;
+}
+
+/*video*/
+
+.comprehensive_details .video {
+  text-align: center;
+  background: var(--light_grey);
+  padding-bottom: 3em;
+}
+
+
+
+.comprehensive_details .video .fa-camera {
+  font-size: 10em;
+  margin: auto;
+}
+
+.owner_provisions ul {
+  display: flex;
+  list-style: circle inside;
+  flex-flow: row wrap;
+}
+
+.owner_provisions ul li {
+  padding: .3em 1em;
+  flex: 0 0 50%;
+}
+
+.owner_provisions, .map, .host, .video {
+  margin-bottom: 3em;
 }
