@@ -1173,6 +1173,8 @@ a.alert:hover {
 
 .site_footer .brand {
   left: calc(3em + 20px + .5em);
+  transform: rotate(0);
+  animation: spin 5s 2s backwards linear infinite;
 }
 
 .to_top {
@@ -1209,7 +1211,9 @@ a.alert:hover {
 .location_dot {
   position: relative;
   bottom: .9em;
+  opacity: .2;
   left: .2em;
+  animation: fade 2s 2s linear backwards infinite;
 }
 
 .gallery_box {
@@ -1618,3 +1622,26 @@ a.request_more .fa, a.report_problem .fa {
   color: white !important;
   margin-right: .5em;
 }
+
+@keyframes fade {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity:0.2;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
