@@ -31,6 +31,7 @@
   /*shades of grey*/
   --grey: #222;
   --light_grey: #efefef;
+  --mid_grey: #f2f2f2;
   --black: #000;
   --white: #fff;
 
@@ -1329,6 +1330,7 @@ a.alert:hover {
 .book_now {
   display: block;
   min-width: 3em;
+  margin-bottom: 4em;
   text-align: left;
   position: relative;
 }
@@ -1350,7 +1352,7 @@ a.alert:hover {
 }
 
 .nav_details li {
-  flex: 0 0 20%;
+  flex: 0 0 16.66%;
   text-align: center;
   padding: .5em .2em;
 }
@@ -1359,12 +1361,17 @@ a.alert:hover {
   background: rgba(3,118,244,.5);
 }
 
-.details h3, .video h3, .owner_provisions h3, .map h3 {
+.nav_details li.current a {
+  color: var(--white);
+}
+
+.details h3, .video h3, .owner_provisions h3, .map h3, .host h3 {
   line-height: 3em;
   text-align: center;
   color: var(--light_grey);
   background: rgba(3,118,244,.5);
   margin-bottom: 2em;
+  text-transform: uppercase
 }
 
 .details h3 + dl > dt { 
@@ -1439,3 +1446,69 @@ hr.sectioning {
 .owner_provisions, .map, .host, .video {
   margin-bottom: 3em;
 }
+
+.map .map_frame {
+  width: 100%;
+}
+
+.host {
+
+}
+
+.host .about_host {
+  background-color: var(--mid_grey);
+  text-align: center;
+  padding: 5em 2em 1em;
+  border: 1px solid var(--dodger_blue);
+}
+
+
+.host .about_host img {
+    border: 5px solid var(--white);
+    border-radius: 50%;
+    margin-top: calc(-5em - 50px);
+}
+
+.host .author_name {
+    margin-bottom: .6em;
+    font-size: 1.5em;
+    color: #272727;
+    line-height: 2.4em;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-style: normal;   
+    margin-top: 0;
+}
+
+.host .author_name + span {
+    font-size: 1em;
+    color: #9e9e9e;
+}
+
+.host .author_intro {
+    margin: 15px 0 10px;
+    font-size: .85em;
+    line-height: 1.8em;
+    font-weight: bold;
+    color: #757575; 
+}
+
+ul.host_info li {
+    margin: .95em 0;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #eee;
+    padding: .95em;
+}
+
+ul.host_info li span {
+    color: #aaa;
+    font-weight: 600;
+}
+
+ul.host_info li span em {
+  font-style: normal;
+  color: #272727;
+}
+
+
