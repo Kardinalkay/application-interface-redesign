@@ -242,7 +242,7 @@ header[role=banner] {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-aroundt co;
+    justify-content: space-around;
     font-size: 0.9em;
     font-family: var(--font_primary);
 }
