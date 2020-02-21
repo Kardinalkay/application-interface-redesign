@@ -597,10 +597,19 @@ header[role=banner] {
   font-size: .9em;
   background: var(--black);
   color: var(--light_grey);
+  cursor: pointer;
 }
 
 .more_listing_options .fa-plus {
-  padding: 0 3px;
+  padding: 0 .25em;
+}
+
+.more_listing_options:hover, .more_listing_options:focus {
+  border: 1px solid var(--orange_red);
+}
+
+.more_listing_options:hover .fa-plus, .more_listing_options:focus .fa-plus {
+  color: white;
 }
 
 
