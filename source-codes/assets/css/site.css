@@ -1634,16 +1634,36 @@ a.request_more .fa, a.report_problem .fa {
   font-weight: bolder;
 }
 
-.review_user_info {
+.review_user_info, .review_note .note_meta {
   border: 1px solid black;
   padding: 1em;
   margin: 1em 0;
+}
+
+.review_note p {
+  margin-bottom: 1.5em;
+}
+
+.review_note .note_meta li {
+  padding: 0.25em 0;
+}
+
+.review_note .note_meta li b {
+  margin-right: 1em;
 }
 
 .review_user_info li {
   padding: 0.25em 0;
   text-align: right;
   color: var(--orange_red);
+}
+
+.note_meta .ovte_list ul li {
+  font-size: .8em;
+}
+
+.note_meta .vote_list ul li a {
+  margin-right: .5em;
 }
 
 @keyframes fade {
