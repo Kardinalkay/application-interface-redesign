@@ -1,0 +1,37 @@
+
+@media (max-width: 768px){
+  .main_sidebar, .main_content, .gallery, .comprehensive_details, .related_stays {
+    flex-basis: 100%;
+    width: 100%;
+    max-width: none;
+  }
+
+  .related_stays_collection {
+    flex-wrap: wrap;
+  }
+
+  .related_stays_collection li {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  
+  .site_footer_box {
+    flex-wrap: wrap;
+  }
+
+  .site_footer_box > * {
+    flex-basis: 100%;
+    max-width: none;
+  }
+
+  .useful_links {
+    margin-right: 0;
+  }
+
+  .site_footer .brand {
+    left: auto;
+    right: calc(3em + 20px + .5em);;
+  }
+
+}
+
