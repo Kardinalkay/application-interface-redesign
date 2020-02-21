@@ -12,10 +12,19 @@
 }
 
 @media (min-width: 62rem) {
+
+  .main_content {
+    flex: 0 0 66.67%;
+    max-width: 66.67%;
+  }
   
+  .main_sidebar {
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+  }
 }
 
-
+/* 
 @media (max-width: 768px){
   .main_sidebar, .main_content, .gallery, .comprehensive_details, .related_stays {
     flex-basis: 100%;
@@ -52,3 +61,4 @@
 
 }
 
+ */

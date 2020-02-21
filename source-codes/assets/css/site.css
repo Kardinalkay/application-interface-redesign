@@ -80,6 +80,8 @@ fieldset {
   border: none;
 }
 
+/*Groups*/
+
 
 /*Icons*/
 
@@ -710,8 +712,7 @@ header[role=banner] {
 }
 
 .main_content {
-  flex: 0 0 66.67%;
-  max-width: 66.67%;
+  flex: 0 0 100%;
   padding-left: 20px;
   padding-right: 20px;
   font-family: var(--font_primary);
@@ -980,12 +981,6 @@ a.alert:hover {
 
 /*THE ASIDE*/
 
-.main_sidebar {
-  flex: 0 0 33.3%;
-  max-width: 33.3%;
-}
-
-
 /*THE FOOTER*/
 
 .site_footer {
@@ -1066,7 +1061,10 @@ a.alert:hover {
 
 /*ASIDE*/
 
+
 .main_sidebar {
+  flex: 0 0 100%;
+  text-align: center;
   position: relative;
   font-size: .9em;
   padding: 1em 0;
@@ -1695,42 +1693,5 @@ a.request_more .fa, a.report_problem .fa {
   to {
     transform: rotate(-360deg);
   }
-}
-
-
-@media (max-width: 768px){
-  .main_sidebar, .main_content, .gallery, .comprehensive_details, .related_stays {
-    flex-basis: 100%;
-    width: 100%;
-    max-width: none;
-  }
-
-  .related_stays_collection {
-    flex-wrap: wrap;
-  }
-
-  .related_stays_collection li {
-    flex-basis: 100%;
-    text-align: center;
-  }
-  
-  .site_footer_box {
-    flex-wrap: wrap;
-  }
-
-  .site_footer_box > * {
-    flex-basis: 100%;
-    max-width: none;
-  }
-
-  .useful_links {
-    margin-right: 0;
-  }
-
-  .site_footer .brand {
-    left: auto;
-    right: calc(3em + 20px + .5em);;
-  }
-
 }
 
