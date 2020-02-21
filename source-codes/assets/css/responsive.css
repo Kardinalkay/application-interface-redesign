@@ -1,4 +1,21 @@
 
+@media (min-width: 20rem) {
+
+}
+
+@media (min-width: 30rem) {
+
+}
+
+@media (min-width: 48rem) {
+
+}
+
+@media (min-width: 62rem) {
+  
+}
+
+
 @media (max-width: 768px){
   .main_sidebar, .main_content, .gallery, .comprehensive_details, .related_stays {
     flex-basis: 100%;
