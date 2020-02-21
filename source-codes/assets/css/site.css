@@ -1183,3 +1183,16 @@ a.alert:hover {
   color: var(--orange_red);
   font-size: 3em;
 }
+
+
+/*THE DETAILS PAGE*/
+
+/*gallery*/
+
+.details_title {
+  background: var(--black);
+  padding: .5em 0;
+  text-align: center;
+  font-size: 1.4em;
+  color: var(--white);
+}
