@@ -727,7 +727,7 @@ header[role=banner] {
   margin-bottom: 2.5em;
 }
 
-a.alert {
+a.alert, .request_more, .report_problem {
   position: relative;
   display: inline-block;
   font-size: .8em;
@@ -1518,6 +1518,7 @@ ul.host_info li span em {
 /*related stays*/
 
 .related_stays > h4 {
+  position: relative;
   color: var(--skyblue);
   font: bold 1.3em/3em var(--font_tertiary);
   margin-bottom: 1em;
@@ -1587,4 +1588,33 @@ ul.host_info li span em {
   display: none;
 }
 
+/*aside*/
 
+.closest_airports li {
+  padding: .5em .7em;
+}
+
+a.request_more, a.report_problem {
+  position: relative;
+  display: block;
+  font-size: .8em;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  background: var(--dodger_blue);
+  left: 0;
+  width: 100%;
+  margin-bottom: 2em;
+  color: var(--grey);
+  transition: border, opacity, .2s;
+}
+
+a.report_problem {
+  background: var(--orange_red);
+}
+
+a.request_more .fa, a.report_problem .fa {
+  color: white !important;
+  margin-right: .5em;
+}
