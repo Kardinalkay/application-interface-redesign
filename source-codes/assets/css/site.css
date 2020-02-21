@@ -931,7 +931,8 @@ a.alert:hover {
 .meta {
   flex: 0 0 100%;
   max-width: 100%;
-  transform: translateY(0);
+  margin-top: 2em;
+  transform: translateY(200%);
   background: var(--skyblue);
 }
 
