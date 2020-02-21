@@ -1425,12 +1425,13 @@ hr.sectioning {
   padding-bottom: 3em;
 }
 
-
-
 .comprehensive_details .video .fa-camera {
   font-size: 10em;
   margin: auto;
 }
+
+
+/*provisions*/
 
 .owner_provisions ul {
   display: flex;
@@ -1447,13 +1448,15 @@ hr.sectioning {
   margin-bottom: 3em;
 }
 
+
+/*map*/
+
 .map .map_frame {
   width: 100%;
 }
 
-.host {
 
-}
+/*host*/
 
 .host .about_host {
   background-color: var(--mid_grey);
@@ -1509,6 +1512,79 @@ ul.host_info li span {
 ul.host_info li span em {
   font-style: normal;
   color: #272727;
+}
+
+
+/*related stays*/
+
+.related_stays > h4 {
+  color: var(--skyblue);
+  font: bold 1.3em/3em var(--font_tertiary);
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.related_stays > h4:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: black;
+}
+
+.related_stays_collection {
+  display: flex;
+  background-color: var(--mid_grey);
+}
+
+.related_stays_collection li {
+  flex: 0 0 50%;
+  padding: 0 2em;
+}
+
+.related_stays_collection .gallery_box {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  background: transparent;
+}
+
+.related_stays_collection .gallery_box > h4 {
+  position: absolute;
+  padding: .5em .2em;
+  top: 0;
+  color: var(--orange_red);
+  width: 100%;
+  z-index: 2;
+  opacity: .7;
+  font-weight: var(--font_secondary);
+  background: rgba(255,255,255,.9);
+}
+
+.related_stays_collection .gallery_box figure {
+  position: relative;
+  bottom: auto;
+  right: auto;
+  left: auto;
+  display: inline-block;
+  height: inherit;
+}
+
+.related_stays_collection .gallery_box figcaption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+
+.related_stays_collection .gallery_box figure:before {
+  display: none;
 }
 
 
