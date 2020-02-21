@@ -723,7 +723,7 @@ header[role=banner] {
 }
 
 .intro {
-  margin-bottom: 30px;
+  margin-bottom: 2.5em;
 }
 
 a.alert {
@@ -930,7 +930,7 @@ a.alert:hover {
 .meta {
   flex: 0 0 100%;
   max-width: 100%;
-  transform: translateY(60px);
+  transform: translateY(0);
   background: var(--skyblue);
 }
 
@@ -1062,7 +1062,6 @@ a.alert:hover {
   opacity: .7;
 }
 
-
 /*ASIDE*/
 
 .main_sidebar {
@@ -1188,6 +1187,10 @@ a.alert:hover {
 
 /*gallery*/
 
+.gallery, .comprehensive_details {
+  margin-bottom: 2em;
+}
+
 .details_title {
   background: var(--black);
   padding: .5em 0;
@@ -1212,6 +1215,7 @@ a.alert:hover {
   position: relative;
   height: 350px;
   background: rgba(3,118,244,.5);
+  margin-bottom: 3em;
 }
 
 .gallery_box .fa-link-heart, .gallery_box .fa-link-share-alt, 
@@ -1311,5 +1315,93 @@ a.alert:hover {
 
 .slide_pointers li.active a {
   background-color: var(--golden_rod);
+}
 
+body.details .meta {
+  background-color: var(--light_grey);
+  margin-bottom: 1.5em;
+}
+
+body.details .meta li {
+  color: var(--grey);
+}
+
+.book_now {
+  display: block;
+  min-width: 3em;
+  text-align: right;
+}
+
+.book_now a {
+  border: 1px solid var(--orange_red);
+  display: inline-block;
+  color: var(--orange_red);
+  padding: .5em .7em;
+}
+
+/*comprehensive details*/
+
+.nav_details ul {
+  display: flex;
+}
+
+.nav_details li {
+  flex: 0 0 20%;
+  text-align: center;
+  padding: .5em .2em;
+}
+
+.nav_details li.current {
+  background: rgba(3,118,244,.5);
+}
+
+.details h3 {
+  line-height: 3em;
+  text-align: center;
+  color: var(--light_grey);
+  background: rgba(3,118,244,.5);
+  margin-bottom: 2em;
+}
+
+.details h3 + dl > dt { 
+  text-decoration: underline;
+  margin-bottom: 1em;
+}
+
+.details h3 + dl > dd {
+  margin-bottom: 1em;
+}
+
+.about_stay {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 2em;
+  font-family: var(--font_secondary);
+}
+
+.about_stay li {
+  flex: 0 0 33.33%;
+  padding: .7em .2em;
+  background: rgba(0,0,0,.9);
+  margin-bottom: 1em;
+  color: var(--light_grey);
+}
+
+.about_stay li:nth-child(1), .about_stay li:nth-child(9) {
+  flex-basis: 66.66%;
+}
+
+.about_stay li:nth-child(2), .about_stay li:nth-child(3), 
+.about_stay li:nth-child(4), .about_stay li:nth-child(5), 
+.about_stay li:nth-child(9), .about_stay li:nth-child(10) {
+  background: black;
+}
+
+.about_stay .emphasized {
+  color: var(--golden_rod);
+}
+
+hr.sectioning {
+  border: 2px solid var(--orange_red);
+  margin: 1.5em 0;
 }
