@@ -1326,6 +1326,7 @@ a.alert:hover {
 .body_details .meta {
   background-color: var(--light_grey);
   margin-bottom: 1.5em;
+  transform: translateY(-100%);
 }
 
 .body_details .meta li {
@@ -1370,7 +1371,7 @@ a.alert:hover {
   color: var(--white);
 }
 
-.details h3, .video h3, .owner_provisions h3, .map h3, .host h3 {
+.details h3, .video h3, .owner_provisions h3, .map h3, .host h3, .review h3 {
   line-height: 3em;
   text-align: center;
   color: var(--light_grey);
@@ -1624,6 +1625,27 @@ a.request_more .fa, a.report_problem .fa {
   margin-right: .5em;
 }
 
+.timestamp .user_avatar {
+  margin-right: 1em;
+}
+
+.review_date {
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.review_user_info {
+  border: 1px solid black;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.review_user_info li {
+  padding: 0.25em 0;
+  text-align: right;
+  color: var(--orange_red);
+}
+
 @keyframes fade {
   0% {
     opacity: 0.2;
@@ -1682,3 +1704,4 @@ a.request_more .fa, a.report_problem .fa {
   }
 
 }
+
