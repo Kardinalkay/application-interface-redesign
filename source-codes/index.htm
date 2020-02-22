@@ -1,72 +1,47 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
 	<meta charset="UTF-8">
 
 	<title>AIRBNB &ndash; (Vacation, Rentals, Homestays, Adventures and Travel)</title>
-
 	<meta name="description" content="Airbnb is an online marketplace that connects people who want to rent out their homes to people who are looking for accommodations in that locale.We currently cover more than 81,000 cities and 191 countries worldwide. single rooms, a suite of rooms, apartments, moored yachts, houseboats, entire houses, even castles - we provide. Accommodation, places, comfort, security, you experience">
 
 	<!--Address viewport-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
 	<!--Address I.E-->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge ">
-
 	<meta name="theme-color" content="#fafafa">
-
 	<!--Font Links-->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,900&display=swap" rel="stylesheet" media="all">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700i&display=swap" rel="stylesheet" media="all">
-
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" media="all">
 
 	<!--favicon-->
-
 	<link rel="apple-touch-icon" href="icon.png">
 
 	<!--Stylesheet Links-->
 	<link rel="stylesheet" href="assets/css/normalize.css" media="all">
 	<link rel="stylesheet" href="assets/css/site.css" media="all">
 	<link rel="stylesheet" href="assets/css/responsive.css" media="all">
-
 </head>
 
 <body class="homepage">
-
 	<div class="page">	
-
 		<header role="banner">
-
 			<nav class="navbar" id="main_nav" role="navigation">
-
 				<div class="navbar_box">
-
 			        <a class="navbar_brand" href="index.htm"><img src="assets/images/airbnb_logo_48X48.png" alt="Airbnb Logo"></a>
-
 			        <button class="toggle_menu" type="button">
 			            <span class="fa fa-bars fa-size navbar-toggler-icon"></span>
 			        </button>
-
 			        <ul class="main_nav_links">
-
 			            <li class="navbar_nav">
-
 			            	<ul>
-
 				            	<li>
-
 				              		<a class="nav_link current" href="#">Host <span>(current)</span></a>
-
 				            	</li>
-
 				            	<li class="sub_menu">
-
 				              		<a class="nav_link" href="#">Where's Hot <i class="fa fa-caret-down"></i></a>
-
           		                	<ul>
 	          		                	<li class="nav_link"><a href="#">Hot in January</a></li>
 	          		                	<li class="nav_link"><a href="#">Hot in February</a></li>
@@ -81,13 +56,9 @@
 	          		                	<li class="nav_link"><a href="#">Hot in November</a></li>
 	          		                	<li class="nav_link"><a href="#">Hot in December</a></li>
           		                	</ul>
-
 				            	</li>
-
 				            	<li class="sub_menu">
-
 				              		<a class="nav_link" href="#">Region <i class="fa fa-caret-down"></i></a>
-
           		                	<ul>
 	          		                	<li class="nav_link"><a href="#">North America</a></li>
 	          		                	<li class="nav_link"><a href="#">Europe</a></li>
@@ -98,245 +69,135 @@
 	          		                	<li class="nav_link"><a href="#">Africa</a></li>
 	          		                	<li class="nav_link"><a href="#">Australia &amp; the Pacific</a></li>
           		                	</ul>
-
 				            	</li>
-
 				            </ul>
-
 			          	</li>
-
-			          	<li class="socials">
-			          		
+			          	<li class="socials">			          		
 			          		<ul>
-
 		          				<li class="social_twitter">
-
 		          			  		<a class="nav_link" href="#"><i class="fa fa-twitter fa-size"></i><span>twitter</span></a>
-
 		          				</li>
-
 	          					<li class="social_facebook">
-
 	          				  		<a class="nav_link" href="#"><i class="fa fa-facebook fa-size"></i><span>facebook</span></a>
-
 	          					</li>
-
           						<li class="social_instagram">
-
           					  		<a class="nav_link" href="#"><i class="fa fa-instagram fa-size"></i><span>instagram</span></a>
-
           						</li>
-
 			          		</ul>
-
 			          	</li>
-
 			          	<li class="register">
-
 			          		<ul>
-
 		          				<li class="lang">
-
 									<img class="canada_flag" src="assets/images/circular_flag_canada_28x28.png" alt="canada_english_language">
-
 		          			  		<a class="nav_link" href="#">EN <i class="fa fa-caret-down"></i><span>language</span></a>
-
 		          				</li>
-
 		          				<li class="mobile">
-
 		          			  		<a class="nav_link" href="callto:647XXXXXXX"><i class="fa fa-phone fa-size"></i><span>call</span></a>
-
 		          				</li>
-
 		          				<li class="register_btn">
-
 		          			  		<a class="nav_link" href="#">REGISTER</a>
-
-		          				</li>		          			
+		          				</li>	          			
 
 			          		</ul>
-
 			          	</li>
-
 			        </ul>
-
 			    </div>
-
-			</nav>	
-		
+			</nav>			
 		</header>
 
-
 		<section id="hero" class="hero">
-
 			<div class="frame">
-
 				<section class="listing_filters">
-
-					<p class="watchword">HOME AWAY FROM HOME <span>We have the whole world covered. Just choose your spot</span></p>
-					
+					<p class="watchword">HOME AWAY FROM HOME <span>We have the whole world covered. Just choose your spot</span></p>					
 					<form name="form_listing_filter" id="form_listing_filter" class="form_listing_filter" action="#">
-
 				        <fieldset class="form_group">
-
 				        	<select id="location" class="location">
-
 				        		<optgroup label="America">
-
 				        			<option value=""></option>
-
 				        		    <option style="display: none;" value="CN">Canada</option>
-
 				        		    <option value="US">USA</option>
-
-				        		    <option value="MX">Mexico</option>
-				        		
+				        		    <option value="MX">Mexico</option>				        		
 				        		</optgroup>
-
 				        		<optgroup label="Africa">
-
 				        		    <option value="NG">Nigeria</option>
-
 				        		    <option value="EG">Egypt</option>
-
-				        		    <option value="ET">Ethiopia</option>
-				        		
+				        		    <option value="ET">Ethiopia</option>				        		
 				        		</optgroup>
-
 				        		<optgroup label="Europe">
-
 				        		    <option value="UK">United Kingdom</option>
-
 				        		    <option value="SP">Spain</option>
-
-				        		    <option value="FR">France</option>
-				        		
+				        		    <option value="FR">France</option>				        		
 				        		</optgroup>
-
 				        	</select>
-
-				            <label for="location">				        	
+				            <label for="location">			        	
 
 				            	<i class="fa fa-map-marker"></i>
-
 								Country, Town<span>Everywhere</span>
-
 							</label>
-
 				        </fieldset>
-
 				        <fieldset class="form_group">
-
 				            <select class="duration" id="duration">
-
 				            	<option value=""></option>
-
 				            	<option value="1">1day</option>
-
 				            	<option value="2">2days</option>
-
 				            	<option value="3">3days</option>
-
 				            	<option value="4">4days</option>
-
 				            	<option value="5">5days</option>
-
 				            	<option value="6">6days</option>
-
 				            	<option value="7">7days</option>
-
 				            	<option value="8">8days</option>
-
 				            	<option value="9">9days</option>
-
 				            	<option value="11">11days</option>
-
 				            	<option value="12">12days</option>
-
 				            	<option value="13">13days</option>
-
 				            	<option value="14">14days</option>
-
 				            	<option value="15">15days</option>
-
 				            	<option value="16">16days</option>
+				            </select>
 
-				            </select> 
-
-				            <label for="duration">Duration <span>, 2 weeks</span></label> 
-
+				            <label for="duration">Duration <span>2 weeks</span></label> 
 				        </fieldset>
 
 
-
-				        <button type="submit" class="submit">SEARCH</button>						
+				        <button type="submit" class="submit">SEARCH</button>					
 					
 					</form>
-
 					<button class="more_listing_options">More Search Options <i class="fa fa-plus"></i></button>
-
 				</section>
-
 				<section class="feedback">
-
-					<section class="ratings">
-						
-						<div class="customer_affairs_ratings">
-							
+					<section class="ratings">						
+						<div class="customer_affairs_ratings">							
 							<p>Customer Affairs Ratings: <meter min=0 low="0.25" high="0.75" value="4.1" optimum="0.70" max="5">4.1 out of 5!</meter></p>
-
 							<figure>
-
-								<span class="score"><strong>4.1/</strong>5</span>
-								
+								<span class="score"><strong>4.1/</strong>5</span>								
 								<img src="assets/images/green_bar_56X56.png" alt="Customer Affairs Ratings:- 4.1 out of 5">
-
-								<figcaption>
+								<figcaption>									
 									<span class="rating_service">Customer Affairs</span>
 								</figcaption>
-
 							</figure>
-
-						</div>
-						
-						<div class="trust_pilot_ratings">
-							
+						</div>						
+						<div class="trust_pilot_ratings">							
 							<p>Trust Pilot Ratings: <meter min=0 low="0.25" high="0.75" value="3.8" optimum="0.70" max="5">3.8 out of 5!</meter></p>
-
 							<figure>
-
 								<span class="score"><strong>3.8/</strong>5</span>
-
-								<img src="assets/images/blue_bar_56X56.png" alt="Trust Pilot Affairs Ratings:- 3.8 out of 5">
-								
+								<img src="assets/images/blue_bar_56X56.png" alt="Trust Pilot Affairs Ratings:- 3.8 out of 5">								
 								<figcaption>
 									<span class="rating_service">Trust Pilot</span>
-								</figcaption>
-								
+								</figcaption>								
 							</figure>
-
-						</div>
-						
-					</section>					
+						</div>						
+					</section>			
 					
 					<section class="testimonials">	
-
 						<header>
-
 							<img class="airbnb_client" src="assets/images/user_img_56x56.png" alt="airbnb_client">
-
 							<p class="client">Laila Mal-T</p>
-
 							<p class="country">Ukraine</p>
-
 						</header>	
-
 						<p>
 							Airbnb always worked for me. Honoured all agreements. I have stayed in 2 diff.
 							private Airbnb apartments in Barcelona,	1 in Vienna, and 1 in Bordeaux...
-						</p>				
-
+						</p>		
 						<footer class="client_ranking">
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
@@ -345,59 +206,40 @@
 							<i class="fa fa-star starless"></i>
 						</footer>
 
-
 					</section>
-
 				</section>
-
-			</div>		
-
-		</section>
+			</div>	
+		</section>	
 
 		
-		<section class="body_content">
-				
-			<main class="main_content">
-				
+		<section class="body_content">				
+			<main class="main_content">				
 				<section class="intro">
-
 					<h1 class="page_title">
 						ACCOMMODATION, SAFETY, RESORT, COMFORT
 					</h1>
-
 					<p>
 						We are an online marketplace that <strong>connects people who want to rent out their homes with people looking for accommodation in that locale</strong>. We cover over 191 countries. We do not provide the shelter; our participants
 						which we call 'hosts' are responsible for that - and for those seeking to earn some income from their property,
 						this is a great solution. (Find out if you meet our eligibility criteria for becoming a 'host').
 					</p>
-
 					<p>
 						Due to our literal omnipresence and longevity, we are familiar with property laws as they pertain to each and
 						every country. We largely mitigate risks by requiring and reviewing special permits and necessary licenses from
 						hosts to ensure guests feel, and truly are safe. We also carry out investigative methods to ensure listings are
 						close to reality and we serve a penalty to deceitful hosts.
 					</p>
-
 					<p>
 						We do what is necessary which is why we are industry leaders, and yes, <a href="" title="Learn More" rel="help">feel free to learn more details.</a>
 					</p>
-
-					<a href="#" class="alert"><i class="fa fa-bell m-right-30"></i> Create alert for new property matching my search</a>
-					
+					<a href="#" class="alert"><i class="fa fa-bell m-right-30"></i> Create alert for new property matching my search</a>					
 				</section>
-
-				<section class="listings">
-					
+				<section class="listings">					
 		        	<ul class="stay_list">
-
 		        		<li class="single_list">
-
-		        			<article class="single_entry_listing">
-		        				
-				        		<div class="content">
-				                                     
-				        			<h3 class="title">Shiba Room, Near Airport, Congress CTR</h3>
-				                                         
+		        			<article class="single_entry_listing">		        				
+				        		<div class="content">				                                     
+				        			<h3 class="title">Shiba Room, Near Airport, Congress CTR</h3>				                                         
 				        			<p>
 				        				Private and spacious room with full amenities, security
 				        				entrance, and private keypad door lock. Common areas are
@@ -407,79 +249,48 @@
 				        				Located less than 10 minutes drive (and 15 min bus) away
 				        				from Toronto Pearson airport...
 				        			</p>
-
 				        			<p>
 				        				Located less than 10 minutes drive (and 15 min bus) away
 				        				from Toronto Pearson airport...
-				        			</p>
-				                                         
-				        			<a href="details.htm" class="view_more">
-				                                         
+				        			</p>				                                         
+				        			<a href="details.htm" class="view_more">				                                         
 										View Full Description <i class="fa fa-caret-right"></i>
-
 									</a>
-
-									<span class="price"><span class="symbol">$ </span>79 <span class="symbol">/</span> night</span>
-				        			
+									<span class="price"><span class="symbol">$ </span>79 <span class="symbol">/</span> night</span>				        			
 				        		</div>
-
-		        			</article>
-		        				
+		        			</article>		        				
 	        				<figure class="listings_img">
-
 	        					<a title="Add to Watchlist" class="fa-link-heart" href="#"><i class="fa fa-heart fa-size"></i></a>
-
 	        					<a title="Share" class="fa-link-share-alt" href="#"><i class="fa fa-share-alt fa-size"></i></a>
-
 	        					<img class="location_flag" src="assets/images/circular_flag_canada_28x28.png" alt="Canada's flag">
-
 	        					<img class="listings_img_single img_fluid" src="assets/images/photo_listing_2.png" alt="Shiba Room, Near Airport, Congress CTR - (listing 1)">
-
 	        					<figcaption>AVAILABLE (<span class="photo_count">3</span> photos)</figcaption>
-
 	        				</figure>
-
 	        				<footer class="meta">
-
 	        					<ul>
-
-	        						<li>Furnished <span class="fa fa-check"></span></li>
-	        						
+	        						<li>Furnished <span class="fa fa-check"></span></li>	        						
 	        						<li>Bedroom <span class="count">(1)</span></li>
-
 	        						<li>Toilet <span class="count">(1)</span></li>
-
 	        						<li>Bathroom <span class="count">(2)</span></li>
-
 	        						<li>Parking Space <span class="fa fa-check"></span></li>
-
-	        					</ul>
-	        					
-	        				</footer>
-			                                     
+	        					</ul>	        					
+	        				</footer>			                                     
 		        		</li>
-
 		        		<li class="single_list">
-
-		        			<article class="single_entry_listing">
-		        				
-				        		<div class="content">
-				                                     
-				        			<h3 class="title">Porta33 I Porto Penthauze Duplex at Rua das</h3>
-				                                         
+		        			<article class="single_entry_listing">		        				
+				        		<div class="content">				                                     
+				        			<h3 class="title">Porta33 I Porto Penthauze Duplex at Rua das</h3>				                                         
 				        			<p>
 				        				If you want to enjoy the urban vibe of Quebec, then this is the
 				        				ideal place for you.
 				        			</p>
-
 				        			<p>
 				        				A stunning luxury two-bedroom duplex apartment is located
 				        				in one of Invicta's best-known streets, Mont-Trenblant. Since
 				        				the beginning of the year, the “ Chemin du Roy highway”,
 				        				where our space is located, has been the target of several
 				        				restorations...
-				        			</p>
-				                                         
+				        			</p>				                                         
 				        			<a href="details.htm" class="view_more">
 				                                         
 										View Full Description <i class="fa fa-caret-right"></i>
@@ -487,53 +298,29 @@
 									</a>
 
 									<span class="price"><span class="symbol">$ </span>119 <span class="symbol">/</span> night</span>
-				        			
 				        		</div>
-
 		        			</article>
-
 			        		<figure class="listings_img">
-
 			        			<a title="Add to Watchlist" class="fa-link-heart" href="#"><i class="fa fa-heart fa-size"></i></a>
-
 			        			<a title="Share" class="fa-link-share-alt" href="#"><i class="fa fa-share-alt fa-size"></i></a>
-
 			        			<img class="location_flag" src="assets/images/circular_flag_canada_28x28.png" alt="Canada's flag">
-
 			        			<img class="listings_img_single img_fluid" src="assets/images/photo_listing_1.png" alt="Porta33 I Porto Penthauze Duplex at Rua das - (listing 1)">
-
 			        			<figcaption>AVAILABLE (<span class="photo_count">5</span> photos)</figcaption>
-
 			        		</figure>
-
 			        		<footer class="meta">
-
 			        			<ul>
-
-			        				<li>Furnished <span class="fa fa-check"></span></li>
-			        				
+			        				<li>Furnished <span class="fa fa-check"></span></li>			        				
 			        				<li>Bedroom <span class="count">(2)</span></li>
-
 			        				<li>Toilet <span class="count">(1)</span></li>
-
 			        				<li>Bathroom <span class="count">(2)</span></li>
-
 			        				<li>Parking Space <span class="fa fa-times"></span></li>
-
-			        			</ul>
-			        			
-			        		</footer>
-			                                     
+			        			</ul>			        			
+			        		</footer>			                                     
 		        		</li>
-
 		        		<li class="single_list">
-
-		        			<article class="single_entry_listing">
-		        				
-				        		<div class="content">
-				                                     
-				        			<h3 class="title">Charming Old World Haven, Central Toronto</h3>
-				                                         
+		        			<article class="single_entry_listing">		        				
+				        		<div class="content">				                                     
+				        			<h3 class="title">Charming Old World Haven, Central Toronto</h3>				                                         
 				        			<p>
 				        				Our home is circa 1888 and is kept in this old style. It’s cozy
 				        				and very pleasing with a large backyard and deck for your
@@ -542,128 +329,71 @@
 				        				glass doors. High ceilings and dark wood floor really make it
 				        				lovely and you will feel like to step into another world long
 				        				forgotten...
-				        			</p>
-				                                         
-				        			<a href="details.htm" class="view_more">
-				                                         
+				        			</p>				                                         
+				        			<a href="details.htm" class="view_more">				                                         
 										View Full Description <i class="fa fa-caret-right"></i>
-
 									</a>
-
-									<span class="price"><span class="symbol">$ </span>73 <span class="symbol">/</span> night</span>
-				        			
+									<span class="price"><span class="symbol">$ </span>73 <span class="symbol">/</span> night</span>				        			
 				        		</div>
-
 		        			</article>
-
 			        		<figure class="listings_img">
-
 			        			<a title="Add to Watchlist" class="fa-link-heart" href="#"><i class="fa fa-heart fa-size"></i></a>
-
 			        			<a title="Share" class="fa-link-share-alt" href="#"><i class="fa fa-share-alt fa-size"></i></a>
-
 			        			<img class="location_flag" src="assets/images/circular_flag_canada_28x28.png" alt="Canada's flag">
-
 			        			<img class="listings_img_single img_fluid" src="assets/images/photo_listing_3.png" alt="Charming Old World Bungalow Haven, Central Toronto - (listing 3)">
-
 			        			<figcaption>AVAILABLE (<span class="photo_count">5</span> photos)</figcaption>
-
 			        		</figure>
-
 			        		<footer class="meta">
-
 			        			<ul>
-
-			        				<li>Furnished <span class="fa fa-times"></span></li>
-			        				
+			        				<li>Furnished <span class="fa fa-times"></span></li>			        				
 			        				<li>Bedroom <span class="count">(1)</span></li>
-
 			        				<li>Toilet <span class="count">(1)</span></li>
-
 			        				<li>Bathroom <span class="count">(2)</span></li>
-
 			        				<li>Parking Space <span class="fa fa-check"></span></li>
-
-			        			</ul>
-			        			
-			        		</footer>
-			                                     
+			        			</ul>			        			
+			        		</footer>			                                     
 		        		</li>
 
 		        		<li class="single_list">
-
-		        			<article class="single_entry_listing">
-		        				
-				        		<div class="content">
-				                                     
-				        			<h3 class="title">Downtown Home 3-min walk to U of T</h3>
-				                                         
+		        			<article class="single_entry_listing">		        								        		<div class="content">				                                     
+				        			<h3 class="title">Downtown Home 3-min walk to U of T</h3>				                                         
 				        			<p>
 				        				Private bedroom on second level. Fully finished modern
 				        				kitchen & dinning room living room on first level. Very clean.
 				        				Wifi included. 1 car parking spots. Steps to bus stop which
 				        				takes you to the subway or to the city...
-				        			</p>
-				                                         
-				        			<a href="details.htm" class="view_more">
-				                                         
+				        			</p>				                                         
+				        			<a href="details.htm" class="view_more">				                                         
 										View Full Description <i class="fa fa-caret-right"></i>
-
 									</a>
-
-									<span class="price"><span class="symbol">$ </span>62 <span class="symbol">/</span> night</span>
-				        			
+									<span class="price"><span class="symbol">$ </span>62 <span class="symbol">/</span> night</span>				        			
 				        		</div>
-
 		        			</article>
-
 			        		<figure class="listings_img">
-
 			        			<a title="Add to Watchlist" class="fa-link-heart" href="#"><i class="fa fa-heart fa-size"></i></a>
-
 			        			<a title="Share" class="fa-link-share-alt" href="#"><i class="fa fa-share-alt fa-size"></i></a>
-
 			        			<img class="location_flag" src="assets/images/circular_flag_canada_28x28.png" alt="Canada's flag">
-
 			        			<img class="listings_img_single img_fluid" src="assets/images/photo_listing_4.png" alt="Downtown Home 3-min walk to U of T - (listing 4)">
-
 			        			<figcaption>AVAILABLE (<span class="photo_count">5</span> photos)</figcaption>
-
 			        		</figure>
-
 			        		<footer class="meta">
-
 			        			<ul>
-
-			        				<li>Furnished <span class="fa fa-times"></span></li>
-			        				
+			        				<li>Furnished <span class="fa fa-times"></span></li>			        				
 			        				<li>Bedroom <span class="count">(2)</span></li>
-
 			        				<li>Toilet <span class="count">(1)</span></li>
-
 			        				<li>Bathroom <span class="count">(1)</span></li>
-
 			        				<li>Parking Space <span class="fa fa-check"></span></li>
-
-			        			</ul>
-			        			
-			        		</footer>
-			                                     
+			        			</ul>			        			
+			        		</footer>			                                     
 		        		</li>
-
 		        		<li class="single_list">
-
-		        			<article class="single_entry_listing">
-		        				
-				        		<div class="content">
-				                                     
-				        			<h3 class="title">Nice & Cozy Room Near York University #3</h3>
-				                                         
+		        			<article class="single_entry_listing">		        				
+				        		<div class="content">				                                     
+				        			<h3 class="title">Nice & Cozy Room Near York University #3</h3>				                                         
 				        			<p>
 				        				If want to enjoy the urban vibe of Quebec, then this is the
 				        				ideal place for you.
 				        			</p>
-
 				        			<p>
 				        				Beautiful , sunny and friendly room close York university
 				        				Campus ,
@@ -671,301 +401,152 @@
 				        				university and Seneca in York and finch west subway station
 				        				that to go Toronto downtown, close to Walmart and Yorkdale
 				        				Mall...
-				        			</p>
-				                                         
-				        			<a href="details.htm" class="view_more">
-				                                         
+				        			</p>				                                         
+				        			<a href="details.htm" class="view_more">				                                         
 										View Full Description <i class="fa fa-caret-right"></i>
-
 									</a>
-
-									<span class="price"><span class="symbol">$ </span>91 <span class="symbol">/</span> night</span>
-				        			
+									<span class="price"><span class="symbol">$ </span>91 <span class="symbol">/</span> night</span>				        			
 				        		</div>
-
 		        			</article>
-
 			        		<figure class="listings_img">
-
 			        			<a title="Add to Watchlist" class="fa-link-heart" href="#"><i class="fa fa-heart fa-size"></i></a>
-
 			        			<a title="Share" class="fa-link-share-alt" href="#"><i class="fa fa-share-alt fa-size"></i></a>
-
 			        			<img class="location_flag" src="assets/images/circular_flag_canada_28x28.png" alt="Canada's flag">
-
 			        			<img class="listings_img_single img_fluid" src="assets/images/photo_listing_5.png" alt="Nice & Cozy Room Near York University #3- (listing 1)">
-
 			        			<figcaption>AVAILABLE (<span class="photo_count">3</span> photos)</figcaption>
-
 			        		</figure>
-
 			        		<footer class="meta">
-
 			        			<ul>
-
-			        				<li>Furnished <span class="fa fa-times"></span></li>
-			        				
+			        				<li>Furnished <span class="fa fa-times"></span></li>			        				
 			        				<li>Bedroom <span class="count">(1)</span></li>
-
 			        				<li>Toilet <span class="count">(1)</span></li>
-
 			        				<li>Bathroom <span class="count">(2)</span></li>
-
-			        				<li>Parking Space <span class="fa fa-times"></span></li>
-
-			        			</ul>
-			        			
-			        		</footer>
-			                                     
+			        				<li>Parking Space <span class="fa fa-times"></span></li>			        		
+			        			</ul>			        			
+			        		</footer>			                                     
 		        		</li>
-
 		        		<li class="single_list">
-
-		        			<article class="single_entry_listing">
-		        				
-				        		<div class="content">
-				                                     
-				        			<h3 class="title">Private room at Yonge & Eglinton, Midtown</h3>
-				              
+		        			<article class="single_entry_listing">		        				
+				        		<div class="content">				                                     
+				        			<h3 class="title">Private room at Yonge & Eglinton, Midtown</h3>				              
 				        			<p>Private bedroom with double bed, in 29th floor corner unit in
 				        				a new condo development. Located 2 mins walk from Eglinton
 				        				subway, close to downtown, lots of walkable amenities, mall,
 				        				great restaurants etc in the neighbourhood as well.
-
 				        			<p>
 				        				You will have a private bedroom, bathroom & full use of
 				        				building amenities: gym, pool, hot tub, steam, sauna....
-				        			</p>
-				                                         
-				        			<a href="details.htm" class="view_more">
-				                                         
+				        			</p>				                                         
+				        			<a href="details.htm" class="view_more">				                                         
 										View Full Description <i class="fa fa-caret-right"></i>
-
 									</a>
-
-									<span class="price"><span class="symbol">$ </span>113 <span class="symbol">/</span> night</span>
-				        			
+									<span class="price"><span class="symbol">$ </span>113 <span class="symbol">/</span> night</span>				        			
 				        		</div>
-
 		        			</article>
-
 			        		<figure class="listings_img">
-
 			        			<a title="Add to Watchlist" class="fa-link-heart" href="#"><i class="fa fa-heart fa-size"></i></a>
-
 			        			<a title="Share" class="fa-link-share-alt" href="#"><i class="fa fa-share-alt fa-size"></i></a>
-
 			        			<img class="location_flag" src="assets/images/circular_flag_canada_28x28.png" alt="Canada's flag">
-
 			        			<img class="listings_img_single img_fluid" src="assets/images/photo_listing_7.png" alt="Private room at Yonge & Eglinton, Midtown - (listing 7)">
-
 			        			<figcaption>AVAILABLE (<span class="photo_count">6</span> photos)</figcaption>
-
 			        		</figure>
-
 			        		<footer class="meta">
-
 			        			<ul>
-
-			        				<li>Furnished <span class="fa fa-check"></span></li>
-			        				
+			        				<li>Furnished <span class="fa fa-check"></span></li>			        				
 			        				<li>Bedroom <span class="count">(1)</span></li>
-
 			        				<li>Toilet <span class="count">(1)</span></li>
-
 			        				<li>Bathroom <span class="count">(1)</span></li>
-
 			        				<li>Parking Space <span class="fa fa-check"></span></li>
-
-			        			</ul>
-			        			
-			        		</footer>
-			                                     
+			        			</ul>			        			
+			        		</footer>			                                     
 		        		</li>
-
 		        		<li class="single_list">
-
-		        			<article class="single_entry_listing">
-		        				
-				        		<div class="content">
-				                                     
+		        			<article class="single_entry_listing">		        				
+				        		<div class="content">				                                     
 				        			<h3 class="title">Cozy, Clean and Convenient Bedroom</h3>
-				                                         
-				        			<p>
+				                                         				        			<p>
 				        				Comfy spacious bedroom with TV (chromecast).
 				        				Clean double sink bathroom and available kitchen with
 				        				dishwasher/microwave/stove/fridge...
-				        			</p>
-				                                         
-				        			<a href="details.htm" class="view_more">
-				                                         
+				        			</p>				                                         
+				        			<a href="details.htm" class="view_more">				                                         
 										View Full Description <i class="fa fa-caret-right"></i>
-
 									</a>
-
-									<span class="price"><span class="symbol">$ </span>96 <span class="symbol">/</span> night</span>
-				        			
+									<span class="price"><span class="symbol">$ </span>96 <span class="symbol">/</span> night</span>				        			
 				        		</div>
-
 		        			</article>
-
 			        		<figure class="listings_img">
-
 			        			<a title="Add to Watchlist" title="Add to Watchlist" class="fa-link-heart" href="#"><i class="fa fa-heart fa-size"></i></a>
-
 			        			<a title="Share" title="Share" class="fa-link-share-alt" href="#"><i class="fa fa-share-alt fa-size"></i></a>
-
 			        			<img class="location_flag" src="assets/images/circular_flag_canada_28x28.png" alt="Canada's flag">
-
 			        			<img class="listings_img_single img_fluid" src="assets/images/photo_listing_8.png" alt="Cozy, Clean and Convenient Bedroom - (listing 8)">
-
 			        			<figcaption>AVAILABLE (<span class="photo_count">3</span> photos)</figcaption>
-
 			        		</figure>
 
-
 			        		<footer class="meta">
-
 			        			<ul>
-
-			        				<li>Furnished <span class="fa fa-check"></span></li>
-			        				
+			        				<li>Furnished <span class="fa fa-check"></span></li>			        				
 			        				<li>Bedroom <span class="count">(1)</span></li>
-
 			        				<li>Toilet <span class="count">(2)</span></li>
-
 			        				<li>Bathroom <span class="count">(2)</span></li>
-
 			        				<li>Parking Space <span class="fa fa-times"></span></li>
-
-			        			</ul>
-			        			
-			        		</footer>
-			                                     
-		        		</li>
-
+			        			</ul>			        			
+			        		</footer>			                                     
+		        		</li>		        		
 		        		<li class="single_list">
-
-		        			<article class="single_entry_listing">
-		        				
-				        		<div class="content">
-				                                     
-				        			<h3 class="title">Room Cactus with Washroom, Kesington</h3>
-				                                         
+		        			<article class="single_entry_listing">		        				
+				        		<div class="content">				                                     
+				        			<h3 class="title">Room Cactus with Washroom, Kesington</h3>				                                         
 				        			<p>Nestled in the heart of Kensington Market, one of Toronto's
 										busiest neighborhoods, yet kept itself an arm away from all
 										the bustling. Sitting right on the edge of the tranquil Bellevue
 										Park, is where you'll find your cozy home. All your local
 										favorites are just steps away. Come in and savor one of a kind
 										experience Toronto has to offer....
-				        			</p>
-				                                         
-				        			<a href="details.htm" class="view_more">
-				                                         
+				        			</p>				                                         
+				        			<a href="details.htm" class="view_more">				                                         
 										View Full Description <i class="fa fa-caret-right"></i>
-
 									</a>
-
-									<span class="price"><span class="symbol">$ </span>96 <span class="symbol">/</span> night</span>
-				        			
+									<span class="price"><span class="symbol">$ </span>96 <span class="symbol">/</span> night</span>				        			
 				        		</div>
-
 		        			</article>
-
 			        		<figure class="listings_img">
-
 			        			<a title="Add to Watchlist" class="fa-link-heart" href="#"><i class="fa fa-heart fa-size"></i></a>
-
 			        			<a title="Share" class="fa-link-share-alt" href="#"><i class="fa fa-share-alt fa-size"></i></a>
-
 			        			<img class="location_flag" src="assets/images/circular_flag_canada_28x28.png" alt="Canada's flag">
-
 			        			<img class="listings_img_single img_fluid" src="assets/images/photo_listing_9.png" alt="Room Cactus with Private Washroom in Kesington - (listing 9)">
-
 			        			<figcaption>AVAILABLE (<span class="photo_count">3</span> photos)</figcaption>
-
 			        		</figure>
-
 			        		<footer class="meta">
-
 			        			<ul>
-
-			        				<li>Furnished <span class="fa fa-check"></span></li>
-			        				
+			        				<li>Furnished <span class="fa fa-check"></span></li>			        				
 			        				<li>Bedroom <span class="count">(2)</span></li>
-
 			        				<li>Toilet <span class="count">(1)</span></li>
-
 			        				<li>Bathroom <span class="count">(2)</span></li>
-
 			        				<li>Parking Space <span class="fa fa-check"></span></li>
-
-			        			</ul>
-			        			
-			        		</footer>
-			                                     
+			        			</ul>			        			
+			        		</footer>			                                     
 		        		</li>
-
 		        		<li class="single_list">
-
-		        			<article class="single_entry_listing">
-		        				
-				        		<div class="content">
-				                                     
-				        			<h3 class="title">Modern and Luxury Condo Downtown Toronto</h3>
-				                                         
+		        			<article class="single_entry_listing">        				
+				        		<div class="content">		                                     
+				        			<h3 class="title">Modern and Luxury Condo Downtown Toronto</h3>		                                         
 				        			<p>Luxurious condo living with a stunning city & lake view in
 										downtown Toronto with a large balcony and free parking.
 										All the stores you will need for food and drink are within a
 										minutes walk. Banks, restaurants, and bars are within walking
-										distance as well...
-				        			</p>
+										distance as well...		        			</p>
 				                                         
-				        			<a href="details.htm" class="view_more">
-				                                         
-										View Full Description <i class="fa fa-caret-right"></i>
+				        			<a href="details.htm" class="view_more">		                                         
+										View Full Description <i class="fa fa-caret-right"></i>								</a>								<span class="price"><span class="symbol">$ </span>142 <span class="symbol">/</span> night</span>		        			
+				        		</div>	        			</article>		        		<figure class="listings_img">		        			<a title="Add to Watchlist" class="fa-link-heart" href="#"><i class="fa fa-heart fa-size"></i></a>		        			<a title="Share" class="fa-link-share-alt" href="#"><i class="fa fa-share-alt fa-size"></i></a>		        			<img class="location_flag" src="assets/images/circular_flag_canada_28x28.png" alt="Canada's flag">
 
-									</a>
+			        			<img class="listings_img_single img_fluid" src="assets/images/photo_listing_10.png" alt="Modern and Luxury Condo Downtown Toronto - (listing 10)">			        			<figcaption>AVAILABLE (<span class="photo_count">3</span> photos)</figcaption>
 
-									<span class="price"><span class="symbol">$ </span>142 <span class="symbol">/</span> night</span>
-				        			
-				        		</div>
-
-		        			</article>
-
-			        		<figure class="listings_img">
-
-			        			<a title="Add to Watchlist" class="fa-link-heart" href="#"><i class="fa fa-heart fa-size"></i></a>
-
-			        			<a title="Share" class="fa-link-share-alt" href="#"><i class="fa fa-share-alt fa-size"></i></a>
-
-			        			<img class="location_flag" src="assets/images/circular_flag_canada_28x28.png" alt="Canada's flag">
-
-			        			<img class="listings_img_single img_fluid" src="assets/images/photo_listing_10.png" alt="Modern and Luxury Condo Downtown Toronto - (listing 10)">
-
-			        			<figcaption>AVAILABLE (<span class="photo_count">3</span> photos)</figcaption>
-
-			        		</figure>
-
-			        		<footer class="meta">
-
-			        			<ul>
-
-			        				<li>Furnished <span class="fa fa-check"></span></li>
-			        				
-			        				<li>Bedroom <span class="count">(2)</span></li>
-
-			        				<li>Toilet <span class="count">(1)</span></li>
-
-			        				<li>Bathroom <span class="count">(2)</span></li>
-
-			        				<li>Parking Space <span class="fa fa-check"></span></li>
-
-			        			</ul>
-			        			
-			        		</footer>
-			                                     
-		        		</li>			        					        		
+			        		</figure>			        		<footer class="meta">			        			<ul>			        				<li>Furnished <span class="fa fa-check"></span></li>		        				
+			        				<li>Bedroom <span class="count">(2)</span></li>			        				<li>Toilet <span class="count">(1)</span></li>			        				<li>Bathroom <span class="count">(2)</span></li>			        				<li>Parking Space <span class="fa fa-check"></span></li>			        			</ul>		        			
+			        		</footer>		                                     
+		        		</li>	        					        		
 
 		        	</ul>
 		        	
@@ -976,20 +557,42 @@
 	        	        <li><a href="#">4</a></li>&hellip;
 	        	        <li><a href="#">10</a></li>
 	        	        <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
-	        	    </ul>
-		        	    		                                 
+	        	    </ul>		        	    		                                 
 				</section>
-
 			</main>
 		
-			<aside id="main_sidebar" class="main_sidebar" role="complementary">
-					
+			<aside id="main_sidebar" class="main_sidebar" role="complementary">					
 				<section class="all_star_ratings">
-
 					<h3 class="title">All Star Ratings</h3>
-
-					<ul>
-						
+					<ul>						
+						<li>
+							<figure class="single_entry_listing_destination">
+								<div class="five_star_collection">								
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</div>
+								<img src="assets/images/sidebar_img_1.png" alt="list of top rated stays and resorts - Art and Architecture in Edmonton">							
+								<figcaption>Art and Architecture in Edmonton</figcaption>							                            
+							</figure>
+							<a href="details.htm" class="view_more"><span>More Information</span></a>
+						</li>
+							<figure class="single_entry_listing_destination">
+								<div class="five_star_collection">								
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</div>
+								<img src="assets/images/sidebar_img_2.png" alt="list of top rated stays and resorts - White Point Beach Resort, Nova Scotian">							
+								<figcaption>White Point Beach Resort, Nova Scotia</figcaption>							                            
+							</figure>
+							<a href="details.htm" class="view_more"><span>More Information</span></a>
+						<li>							
+						</li>
 						<li>
 							<figure class="single_entry_listing_destination">
 
@@ -1000,118 +603,49 @@
 									<i class="fa fa-star"></i>
 									<i class="fa fa-star"></i>
 								</div>
-
-								<img src="assets/images/sidebar_img_1.png" alt="list of top rated stays and resorts - Art and Architecture in Edmonton">
-							
-								<figcaption>Art and Architecture in Edmonton</figcaption>
-							                            
+								<img src="assets/images/sidebar_img_3.png" alt="list of top rated stays and resorts - Grand Rockies Resort, Alberta">							
+								<figcaption>Grand Rockies Resort, Alberta</figcaption>						                           
 							</figure>
-
 							<a href="details.htm" class="view_more"><span>More Information</span></a>
 						</li>
-
-							<figure class="single_entry_listing_destination">
-
-								<div class="five_star_collection">								
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-								</div>
-
-								<img src="assets/images/sidebar_img_2.png" alt="list of top rated stays and resorts - White Point Beach Resort, Nova Scotian">
-							
-								<figcaption>White Point Beach Resort, Nova Scotia</figcaption>
-							                            
-							</figure>
-
-							<a href="details.htm" class="view_more"><span>More Information</span></a>
-
-						<li>
-							
-						</li>
-
-						<li>
-							<figure class="single_entry_listing_destination">
-
-								<div class="five_star_collection">								
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-								</div>
-
-								<img src="assets/images/sidebar_img_3.png" alt="list of top rated stays and resorts - Grand Rockies Resort, Alberta">
-							
-								<figcaption>Grand Rockies Resort, Alberta</figcaption>
-							                            
-							</figure>
-
-							<a href="details.htm" class="view_more"><span>More Information</span></a>
-						</li>
-
 					</ul>
-
 				</section>
-
 				<section id="safety_index" class="safety_index">
-
 					<h3 class="title">Toronto Safety Index</h3>
+					<img class="safety_index_graph" src="assets/images/toronto_safety_index.png" alt="Toronto's safety index when compared to global standards: The global standards safety index in percentage terms in 2000 was 48, in 2005, it was 53, in 2010, it was 55, in 2015 it was 47, in 2020, it is 57 at its peak. While Toronto's standards in 2000 was 67, in 2005, it was 63, in 2010, it was 61, in 2015 it was 62, in 2020, it is 60 (at its nadir in this 20-year timeline)">	
 
-					<img class="safety_index_graph" src="assets/images/toronto_safety_index.png" alt="Toronto's safety index when compared to global standards: The global standards safety index in percentage terms in 2000 was 48, in 2005, it was 53, in 2010, it was 55, in 2015 it was 47, in 2020, it is 57 at its peak. While Toronto's standards in 2000 was 67, in 2005, it was 63, in 2010, it was 61, in 2015 it was 62, in 2020, it is 60 (at its nadir in this 20-year timeline)">		
-
-					<p><a href="#">How safe is Toronto compared to the rest of Canadian cities?</a></p>		
+					<p><a href="#">How safe is Toronto compared to the rest of Canadian cities?</a></p>	
 
 				</section>
-
 			</aside>
-
 		</section>
-
+		
 		<footer id="footer" class="site_footer" role="contentinfo">
-
-		    <div class="site_footer_box">
-		                            
-	            <section class="about_us">
-	            		            
-                    <h3 class="menu_head">About Us</h3>
-                    
+		    <div class="site_footer_box">		                            
+	            <section class="about_us">	            		            
+                    <h3 class="menu_head">About Us</h3>                    
                     <p>Airbnb takes a unique approach toward lodging. Part of the “sharing economy,” Airbnb offers you someone’s home as a place to stay instead of a hotel. On Airbnb, you can find places to crash on your backpacking trip through Europe, or you can find a place to stay for a month during your internship in Los Angeles. Also, if you want to rent out extra space in your own
-					home, you can host through Airbnb and make money for allowing a guest to stay.</p>
-	                		                
-	            </section>
-	            
-	            <section class="main_links">
-	                
-	                <section class="advertise_with_us">
-	                
-	                    <h3 class="menu_head">Advertise with Us</h3>
-                    		                    
+					home, you can host through Airbnb and make money for allowing a guest to stay.</p>	                		                
+	            </section>	            
+	            <section class="main_links">	                
+	                <section class="advertise_with_us">	                
+	                    <h3 class="menu_head">Advertise with Us</h3>                    		                    
                         <ul>
                             <li><a href="#">Advertise / Market Your Property</a></li>
                             <li><a href="#">Featured Real Estate Companies</a></li>
                             <li><a href="#">Place Banner Ads</a></li>
-                        </ul>
-	                        		                    
+                        </ul>	                        		                    
 	                </section>
-
-	                <section class="companies">
-	                
-	                    <h3 class="menu_head">Companies</h3>
-                    		                    
+	                <section class="companies">	                
+	                    <h3 class="menu_head">Companies</h3>                    		                    
                         <ul>
                         	<li><a href="#">Estate Agents</a></li>
                             <li><a href="#">Developers</a></li>
-                        </ul>
-	                        		                    
-	                </section>	
+                        </ul>	                        		                    
+	                </section>
 
-	                <section class="useful_links">
-	                
-	                    <h3 class="menu_head">Useful Links</h3>
-                    		                    
+	                <section class="useful_links">	                
+	                    <h3 class="menu_head">Useful Links</h3>                    		                    
                         <ul class="useful_links_list">
                         	<li><a href="#">Contact Us</a></li>
                             <li><a href="#">Top Destinations</a></li>
@@ -1120,76 +654,40 @@
                             <li><a href="#">Terms of Use</a></li>
                             <li><a href="#">Holiday Advice</a></li>
                             <li><a href="#">FAQS</a></li>
-                        </ul>
-	                        		                    
+                        </ul>	                        		                    
 	                </section>	
-
-	            </section>
-	            
-	            <section class="follow_us">
-	            		                
+	            </section>	            
+	            <section class="follow_us">	            		                
                     <section>
-
-                    	<h3 class="menu_head">Follow Us</h3>
-                	          		
+                    	<h3 class="menu_head">Follow Us</h3>                	          		
 		          		<ul class="socials">
-
 	          				<li class="social_twitter">
-
 	          			  		<a class="nav_link" href="#"><i class="fa fa-twitter fa-size"></i><span>twitter</span></a>
-
 	          				</li>
-
 	      					<li class="social_facebook">
-
 	      				  		<a class="nav_link" href="#"><i class="fa fa-facebook fa-size"></i><span>facebook</span></a>
-
 	      					</li>
-
 	  						<li class="social_instagram">
-
 	  					  		<a class="nav_link" href="#"><i class="fa fa-instagram fa-size"></i><span>instagram</span></a>
-
 	  						</li>
-
 		          		</ul>
-
 		          	</section>
-
-		          	<section class="mobile_apps">
-		          		
-		          		<h3 class="menu_head">DOWNLOAD OUR MOBILE APP</h3>
-                	          		
+		          	<section class="mobile_apps">		          		
+		          		<h3 class="menu_head">DOWNLOAD OUR MOBILE APP</h3>                	          		
 		          		<ul class="app_store">
-
 	          				<li class="google_play">
-
 	          			  		<a href="#"><img src="assets/images/google_play.png" alt="Google playstore link for download"></a>
-
 	          				</li>
-
 	      					<li class="social_facebook">
-
 	      						<a href="#"><img src="assets/images/app_store_download.png" alt="App store link for download"></a>
-
 	      					</li>
-
 		          		</ul>
-
-		          	</section>
-	                        		                    		                
-	            </section>
-		                        
+		          	</section>	                        		                    		                
+	            </section>		                        
 		    </div><!--.container-->
-
 		    <img class="brand" src="assets/images/airbnb_logo_100x100.png" alt="Airbnb Logo">
-
-		    <a class="to_top" href=""><span class="fa fa-arrow-circle-up"></span></a>
-		        		
+		    <a class="to_top" href=""><span class="fa fa-arrow-circle-up"></span></a>		        		
 		</footer>
-
-	</div>	
-
+	</div>
 </body>
-
 </html>
