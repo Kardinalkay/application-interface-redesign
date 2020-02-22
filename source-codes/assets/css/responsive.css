@@ -1,26 +1,18 @@
 
-@media (min-width: 20rem) {
-
-}
 
 @media (min-width: 30rem) {
-
   .navbar_box, .hero > .frame, .body_content, .site_footer_box {
       max-width: 33.75rem;
     }
-
 }
 
 @media (min-width: 48rem) {
-
-  
   .form_listing_filter label {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 0;
   }
-
   .form_listing_filter .form_group {
     display: flex;
     position: relative;
@@ -29,12 +21,9 @@
     align-items: center;
     margin-bottom: 0;
   }
-
   .form_listing_filter{
     align-items: center;
   }
-
-
   .form_listing_filter label {
     position: absolute;
     top: 3px;
@@ -44,11 +33,9 @@
     display: inline-block;
     font-weight: 900;
   }
-
   label[for=location] .fa-map-marker {
     display: inline-block;
   }
-
   .submit {
     display: inline-block;
     border-right-width: 50px;
@@ -56,69 +43,53 @@
     line-height: 1.5;
     margin-top: 0;
   }
-
   .more_listing_options {
     margin-bottom: 0;
   }
-
-
   .navbar_box, .hero > .frame, .body_content, .site_footer_box {
       max-width: 45rem;
     }
-
   .intro {
     margin-bottom: 2.5em;
   }
-
   a.alert {
     width: 60%;
     left: 40%;
     margin-bottom: 8em;
   }
 
-
   .site_footer_box {
     flex-flow: nowrap;
   }
-
   .about_us, .main_links, .follow_us {
     max-width: 33.3%;
     flex: 0 0 33.3%;
   }
-
   .useful_links {
     margin-right: calc(-1em - 100%);
   }
-
   .site_footer .brand {
     right: 0;
     left: calc(3em + 20px + .5em);
   }
-
 }
 
 @media (min-width: 62rem) {
-
   .navbar {
       flex-flow: row nowrap;
   }
-
   .navbar_box {
       flex-wrap: nowrap;
   }
-
   .navbar_box .navbar-toggler, .toggle_menu {
      display: none;
   }
-
   .navbar_nav > ul, .socials > ul, .socials, .register > ul {
         flex-direction: row;
     }
-
   .navbar_box, .hero > .frame, .body_content, .site_footer_box {
       max-width: 60rem;
     }
-
   .navbar_box {
       display: flex;
       flex-flow: row nowrap;
@@ -126,25 +97,20 @@
       background-color: rgba(0,0,0,.2);
       justify-content: space-around;
   }
-
   .navbar_nav {
     margin-right: auto;
   }
-
   .hero {
     margin-top: -72px;
     height: 475px;
     background-image: url('../images/hero-bg.png');
   }
-
   .hero > .frame {
     flex-direction: row;
   }
-
   .main_nav_links {
     width: auto;
   }
-
   .main_nav_links {
       display: flex;
       flex-basis: auto;
@@ -154,47 +120,38 @@
       flex-grow: 1;
       align-items: center;
   }
-
   .register {
     flex: 0 0 33.3%;
     max-width: 33.3%;
   }
-
   .navbar_nav .sub_menu ul {
     flex: 0 0 30em;
     width: 30em;
     max-width: 30em;
   }
-
   .navbar_nav > ul, .socials, .socials > ul, .register > ul {
     margin: 0;
   }
-
   .lang, .mobile, .register_btn {
     margin-bottom: 0;
   }
-
   .main_content {
     flex: 0 0 66.67%;
     max-width: 66.67%;
   }
-
   .page_title {
     border-right: 12.5rem solid var(--black);
     text-align: left;
   }
-
   .listing_filters { 
     flex: 0 0 66.67%;
     max-width: 66.67%;
   }
-
   .feedback {
     flex-direction: column;
     flex: 0 0 33.3%;
     max-width: 33.3%;
-  }
-  
+  }  
   .main_sidebar {
     flex: 0 0 33.3%;
     max-width: 33.3%;
@@ -202,11 +159,9 @@
 }
 
 @media (min-width: 75rem) {
-
   .navbar_box, .hero > .frame, .body_content, .site_footer_box  {
       max-width: 71.25rem;
     }
-
   .single_entry_listing, .listings_img {
     position: absolute;
     right: 0;
@@ -214,12 +169,10 @@
     z-index: 1;
     overflow: hidden;
   }
-
   .single_entry_listing {
     flex: 0 0 58.3%;
     max-width: 58.3%;
     height: 320px;
-
   }
 
   .single_list:nth-child(even) .single_entry_listing {
@@ -227,44 +180,36 @@
     left: 0;
     text-align: right;
   }
-
   .listings_img {
     right: auto;
     left: 35px;
     padding: 0;
     margin-bottom: 0;
   }
-
   .single_list:nth-child(even) .listings_img {
     left: auto;
     right: 35px;
   }
-
   .single_list {
     flex-flow: row nowrap;
     height: 300px;
     margin-bottom: 12em;
   }
-
   .single_entry_listing .content {
     padding: 1em;
   }
-
   .single_list .title {
     margin: 0 -15px .5em;
     padding: 5px 5px 5px 15px;
   }
-
   .single_list:nth-child(even) .single_entry_listing .title {
     padding: 5px 15px 5px 5px;
     margin: 0 -15px .5em;
-  }
-  
+  }  
   .meta {
     position: absolute;
     bottom: -4em;
   }
-
   .single_entry_listing .view_more, .single_entry_listing .price {
     position: absolute;
     display: block;
@@ -273,21 +218,18 @@
     width: auto;
     margin:0;
   }
-
   .single_list:nth-child(even) .view_more {
     left: auto;
     right: 0;
   }
-
   .single_list:nth-child(even) .price {
     left: 0;
     right: auto;
   }
-
   .single_entry_listing .price {
     left: auto;
     right: 0;
   }
-
+}
 
 
