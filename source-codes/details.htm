@@ -1,72 +1,47 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
 	<meta charset="UTF-8">
 
 	<title>AIRBNB &ndash; (Vacation, Rentals, Homestays, Adventures and Travel)</title>
-
 	<meta name="description" content="Airbnb is an online marketplace that connects people who want to rent out their homes to people who are looking for accommodations in that locale.We currently cover more than 81,000 cities and 191 countries worldwide. single rooms, a suite of rooms, apartments, moored yachts, houseboats, entire houses, even castles - we provide. Accommodation, places, comfort, security, you experience">
 
 	<!--Address viewport-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
 	<!--Address I.E-->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge ">
-
 	<meta name="theme-color" content="#fafafa">
-
 	<!--Font Links-->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,900&display=swap" rel="stylesheet" media="all">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700i&display=swap" rel="stylesheet" media="all">
-
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" media="all">
 
 	<!--favicon-->
-
 	<link rel="apple-touch-icon" href="icon.png">
 
 	<!--Stylesheet Links-->
 	<link rel="stylesheet" href="assets/css/normalize.css" media="all">
 	<link rel="stylesheet" href="assets/css/site.css" media="all">
 	<link rel="stylesheet" href="assets/css/responsive.css" media="all">
-
 </head>
 
 <body class="body_details">
-
 	<div class="page">	
-
 		<header role="banner">
-
 			<nav class="navbar" id="main_nav" role="navigation">
-
 				<div class="navbar_box">
-
 			        <a class="navbar_brand" href="index.htm"><img src="assets/images/airbnb_logo_48X48.png" alt="Airbnb Logo"></a>
-
 			        <button class="toggle_menu" type="button">
 			            <span class="fa fa-bars fa-size navbar-toggler-icon"></span>
 			        </button>
-
 			        <ul class="main_nav_links">
-
 			            <li class="navbar_nav">
-
 			            	<ul>
-
 				            	<li>
-
 				              		<a class="nav_link current" href="#">Host <span>(current)</span></a>
-
 				            	</li>
-
 				            	<li class="sub_menu">
-
 				              		<a class="nav_link" href="#">Where's Hot <i class="fa fa-caret-down"></i></a>
-
           		                	<ul>
 	          		                	<li class="nav_link"><a href="#">Hot in January</a></li>
 	          		                	<li class="nav_link"><a href="#">Hot in February</a></li>
@@ -81,13 +56,9 @@
 	          		                	<li class="nav_link"><a href="#">Hot in November</a></li>
 	          		                	<li class="nav_link"><a href="#">Hot in December</a></li>
           		                	</ul>
-
 				            	</li>
-
 				            	<li class="sub_menu">
-
 				              		<a class="nav_link" href="#">Region <i class="fa fa-caret-down"></i></a>
-
           		                	<ul>
 	          		                	<li class="nav_link"><a href="#">North America</a></li>
 	          		                	<li class="nav_link"><a href="#">Europe</a></li>
@@ -98,245 +69,135 @@
 	          		                	<li class="nav_link"><a href="#">Africa</a></li>
 	          		                	<li class="nav_link"><a href="#">Australia &amp; the Pacific</a></li>
           		                	</ul>
-
 				            	</li>
-
 				            </ul>
-
 			          	</li>
-
-			          	<li class="socials">
-			          		
+			          	<li class="socials">			          		
 			          		<ul>
-
 		          				<li class="social_twitter">
-
 		          			  		<a class="nav_link" href="#"><i class="fa fa-twitter fa-size"></i><span>twitter</span></a>
-
 		          				</li>
-
 	          					<li class="social_facebook">
-
 	          				  		<a class="nav_link" href="#"><i class="fa fa-facebook fa-size"></i><span>facebook</span></a>
-
 	          					</li>
-
           						<li class="social_instagram">
-
           					  		<a class="nav_link" href="#"><i class="fa fa-instagram fa-size"></i><span>instagram</span></a>
-
           						</li>
-
 			          		</ul>
-
 			          	</li>
-
 			          	<li class="register">
-
 			          		<ul>
-
 		          				<li class="lang">
-
 									<img class="canada_flag" src="assets/images/circular_flag_canada_28x28.png" alt="canada_english_language">
-
 		          			  		<a class="nav_link" href="#">EN <i class="fa fa-caret-down"></i><span>language</span></a>
-
 		          				</li>
-
 		          				<li class="mobile">
-
 		          			  		<a class="nav_link" href="callto:647XXXXXXX"><i class="fa fa-phone fa-size"></i><span>call</span></a>
-
 		          				</li>
-
 		          				<li class="register_btn">
-
 		          			  		<a class="nav_link" href="#">REGISTER</a>
-
-		          				</li>		          			
+		          				</li>	          			
 
 			          		</ul>
-
 			          	</li>
-
 			        </ul>
-
 			    </div>
-
-			</nav>	
-		
+			</nav>			
 		</header>
 
-
 		<section id="hero" class="hero">
-
 			<div class="frame">
-
 				<section class="listing_filters">
-
-					<p class="watchword">HOME AWAY FROM HOME <span>We have the whole world covered. Just choose your spot</span></p>
-					
+					<p class="watchword">HOME AWAY FROM HOME <span>We have the whole world covered. Just choose your spot</span></p>					
 					<form name="form_listing_filter" id="form_listing_filter" class="form_listing_filter" action="#">
-
 				        <fieldset class="form_group">
-
 				        	<select id="location" class="location">
-
 				        		<optgroup label="America">
-
 				        			<option value=""></option>
-
 				        		    <option style="display: none;" value="CN">Canada</option>
-
 				        		    <option value="US">USA</option>
-
-				        		    <option value="MX">Mexico</option>
-				        		
+				        		    <option value="MX">Mexico</option>				        		
 				        		</optgroup>
-
 				        		<optgroup label="Africa">
-
 				        		    <option value="NG">Nigeria</option>
-
 				        		    <option value="EG">Egypt</option>
-
-				        		    <option value="ET">Ethiopia</option>
-				        		
+				        		    <option value="ET">Ethiopia</option>				        		
 				        		</optgroup>
-
 				        		<optgroup label="Europe">
-
 				        		    <option value="UK">United Kingdom</option>
-
 				        		    <option value="SP">Spain</option>
-
-				        		    <option value="FR">France</option>
-				        		
+				        		    <option value="FR">France</option>				        		
 				        		</optgroup>
-
 				        	</select>
-
-				            <label for="location">				        	
+				            <label for="location">			        	
 
 				            	<i class="fa fa-map-marker"></i>
-
 								Country, Town<span>Everywhere</span>
-
 							</label>
-
 				        </fieldset>
-
 				        <fieldset class="form_group">
-
 				            <select class="duration" id="duration">
-
 				            	<option value=""></option>
-
 				            	<option value="1">1day</option>
-
 				            	<option value="2">2days</option>
-
 				            	<option value="3">3days</option>
-
 				            	<option value="4">4days</option>
-
 				            	<option value="5">5days</option>
-
 				            	<option value="6">6days</option>
-
 				            	<option value="7">7days</option>
-
 				            	<option value="8">8days</option>
-
 				            	<option value="9">9days</option>
-
 				            	<option value="11">11days</option>
-
 				            	<option value="12">12days</option>
-
 				            	<option value="13">13days</option>
-
 				            	<option value="14">14days</option>
-
 				            	<option value="15">15days</option>
-
 				            	<option value="16">16days</option>
-
-				            </select> 
+				            </select>
 
 				            <label for="duration">Duration <span>2 weeks</span></label> 
-
 				        </fieldset>
 
 
-
-				        <button type="submit" class="submit">SEARCH</button>						
+				        <button type="submit" class="submit">SEARCH</button>					
 					
 					</form>
-
 					<button class="more_listing_options">More Search Options <i class="fa fa-plus"></i></button>
-
 				</section>
-
 				<section class="feedback">
-
-					<section class="ratings">
-						
-						<div class="customer_affairs_ratings">
-							
+					<section class="ratings">						
+						<div class="customer_affairs_ratings">							
 							<p>Customer Affairs Ratings: <meter min=0 low="0.25" high="0.75" value="4.1" optimum="0.70" max="5">4.1 out of 5!</meter></p>
-
 							<figure>
-
-								<span class="score"><strong>4.1/</strong>5</span>
-								
+								<span class="score"><strong>4.1/</strong>5</span>								
 								<img src="assets/images/green_bar_56X56.png" alt="Customer Affairs Ratings:- 4.1 out of 5">
-
-								<figcaption>
+								<figcaption>									
 									<span class="rating_service">Customer Affairs</span>
 								</figcaption>
-
 							</figure>
-
-						</div>
-						
-						<div class="trust_pilot_ratings">
-							
+						</div>						
+						<div class="trust_pilot_ratings">							
 							<p>Trust Pilot Ratings: <meter min=0 low="0.25" high="0.75" value="3.8" optimum="0.70" max="5">3.8 out of 5!</meter></p>
-
 							<figure>
-
 								<span class="score"><strong>3.8/</strong>5</span>
-
-								<img src="assets/images/blue_bar_56X56.png" alt="Trust Pilot Affairs Ratings:- 3.8 out of 5">
-								
+								<img src="assets/images/blue_bar_56X56.png" alt="Trust Pilot Affairs Ratings:- 3.8 out of 5">								
 								<figcaption>
 									<span class="rating_service">Trust Pilot</span>
-								</figcaption>
-								
+								</figcaption>								
 							</figure>
-
-						</div>
-						
-					</section>					
+						</div>						
+					</section>			
 					
 					<section class="testimonials">	
-
 						<header>
-
 							<img class="airbnb_client" src="assets/images/user_img_56x56.png" alt="airbnb_client">
-
 							<p class="client">Laila Mal-T</p>
-
 							<p class="country">Ukraine</p>
-
 						</header>	
-
 						<p>
 							Airbnb always worked for me. Honoured all agreements. I have stayed in 2 diff.
 							private Airbnb apartments in Barcelona,	1 in Vienna, and 1 in Bordeaux...
-						</p>				
-
+						</p>		
 						<footer class="client_ranking">
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
@@ -345,87 +206,51 @@
 							<i class="fa fa-star starless"></i>
 						</footer>
 
-
 					</section>
-
 				</section>
-
-			</div>		
-
-		</section>
-
-		
-		<section class="body_content">
-				
+			</div>	
+		</section>		
+		<section class="body_content">				
 			<main class="main_content">
-
-				<section class="gallery">
-					
+				<section class="gallery">					
 					<h1 class="details_title">
 						Room Cactus with Washroom, Kesington &ndash; <span class="details_location">TORONTO</span><img class="location_dot" role="presentation" src="assets/images/location_dot.png" alt="">
 					</h1>
-
 					<div class="gallery_box">
-
 						<a class="slide_control_forward" href="#"><span class="fa fa-angle-right"></span></a>
-
 						<a class="slide_control_backward" href="#"><span class="fa fa-angle-left"></span></a>
-
 						<a class="btn_expand" href="#"><span class="fa fa-expand"></span></a>
-
 						<img src="assets/images/ratings.png" class="details_avg_ratings" alt="average ratings: 4">
-
 						<ul class="slide_pointers">
 							<li class="active"><a class="control_btn" href="#"></a></li>
 							<li><a class="control_btn" href="#"></a></li>
 							<li><a class="control_btn" href="#"></a></li>
 							<li><a class="control_btn" href="#"></a></li>
 							<li><a class="control_btn" href="#"></a></li>
-						</ul>
-						
+						</ul>						
 						<figure class="gallery_img">
-
 							<a class="fa-link-heart" href="#"><i class="fa fa-heart fa-size"></i></a>
-
 							<a class="fa-link-share-alt" href="#"><i class="fa fa-share-alt fa-size"></i></a>
-
 							<img class="img_fluid" src="assets/images/photo_details_penthouse_duplex_600x350.png" alt="Shiba Room, Near Airport, Congress CTR - (listing 1)">
-
 							<figcaption><span class="photo_count">3 /</span> 5</figcaption>
-
 						</figure>
-
 					</div>
-
 					<footer class="meta">
-
 						<ul>
-
-							<li>Furnished <span class="fa fa-check"></span></li>
-							
+							<li>Furnished <span class="fa fa-check"></span></li>							
 							<li>Bedroom <span class="count">(1)</span></li>
-
 							<li>Toilet <span class="count">(1)</span></li>
-
 							<li>Bathroom <span class="count">(2)</span></li>
-
 							<li>Parking Space <span class="fa fa-check"></span></li>
-
-						</ul>
-						
+						</ul>						
 					</footer>
-
 					<p class="book_now">
 						This listing is free now.
 						<a class="" href="#">BOOK NOW! <span class="fa fa-calendar"></span> </a>					
 					</p>
-
 				</section>
-
 				<section class="comprehensive_details">
-
-					<nav class="nav_details">
-						
+					<nav class="nav_details">						
 						<ul>
 							<li class="current"><a href="#details"><span class="fa fa-calendar"></span></a></li>
 							<li><a href="#video">Video</a></li>
@@ -434,17 +259,11 @@
 							<li><a href="#host">Host</a></li>
 							<li><a href="#reviews">Reviews</a></li>
 						</ul>
-
 					</nav>
-
 					<article id="details" class="details">
-
 						<h3>DETAILS</h3>
-
 						<dl>
-
 							<dt><b>Property Description</b></dt>
-
 							<dd>
 								<p>If want to enjoy the urban vibe of Porto, then this is the ideal place for you.
 								A stunning luxury two-bedroom duplex apartment is located in one of Invicta's best-known
@@ -454,19 +273,15 @@
 								in a privileged area for public transport (subway, bus and train).
 								</p>	
 							</dd>
-
-							<dt><b>The Space</b></dt>		
+							<dt><b>The Space</b></dt>	
 
 							<dd>
 								<p>You will be hosting in one of Porto's most iconic buildings, with the most amazing view to
 								the Porto city.</p>
 							</dd>
-
 							<dt><b>Snapshot Details</b></dt>
-
 							<dd>
-								<ul class="about_stay">
-									
+								<ul class="about_stay">									
 									<li>3401 Boulevard Sainte-Anne, Québec (QC G1E 3L4)</li>
 									<li>$ 119/night</li>
 									<li>Property Ref <span class="emphasized">(4775543)</span></li>
@@ -480,32 +295,20 @@
 									<li>Bath <span class="emphasized">(2)</span></li>
 									<li>Bedroom <span class="emphasized">(1)</span></li>
 									<li>Toilet <span class="emphasized">(1)</span></li>
-
 								</ul>
 							</dd>
-
 						</dl>
 
 						<<!--<h3><a href="#">Reviews</a></h3>-->
-
 						<hr class="sectioning">		
-
 					</article>
-
 					<article id="video" class="video">
-
 						<h3>Video</h3>
-
 						<!--<video src="" controls id="airbnb_listing_clip" width="640" height="360" poster="images.png" autoplay>-->
-
 						<span class="fa fa-camera"></span>
-
 					</article>
-
 					<article id="owner_provisions" class="owner_provisions">
-
 						<h3>What Owner Provides</h3>
-
 						<ul>
 							<li>Hangars</li>
 							<li>Iron</li>
@@ -516,116 +319,70 @@
 							<li>Smoke Alarm</li>
 							<li>Shampoo</li>
 							<li>WiFi</li>
-						</ul>
-						
+						</ul>						
 					</article>
-
 					<article id="map" class="map">
-
 						<h3>Location</h3>
-
-						<iframe class="map_frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5773.359203010266!2d-79.40725252289563!3d43.65483396648477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34c23d02c2eb%3A0x472d5132915be00c!2sKensington%20Market%2C%20Toronto%2C%20ON!5e0!3m2!1sen!2sca!4v1582261583829!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-						
+						<iframe class="map_frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5773.359203010266!2d-79.40725252289563!3d43.65483396648477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34c23d02c2eb%3A0x472d5132915be00c!2sKensington%20Market%2C%20Toronto%2C%20ON!5e0!3m2!1sen!2sca!4v1582261583829!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>						
 					</article>
-
 					<article id="host" class="host">
-
-						<h3>Host</h3>
-						                        
-						<header class="about_host">
-					                            
-							<img src="assets/images/host.png" alt="host">
-					                                
-							<div class="author_content">
-					                                
-								<h4 class="author_name">Syam Meri</h4>
-					                                    
+						<h3>Host</h3>						                        
+						<header class="about_host">					                            
+							<img src="assets/images/host.png" alt="host">					                                
+							<div class="author_content">					                                
+								<h4 class="author_name">Syam Meri</h4>					                                    
 								<span class="">Airbnb Host since 2013</span>
-
 								<p class="author_intro">I like to think of people who rent my rooms as partners because that way, it creates effective bonding and calms unnecessary tensions. I have always loved my 'partners' and I love to always discuss whatever needs they may need, even if I may not be able to provide it. I do all these because I also seek to rent on AirBnb when I travel. So, Im on your side too!</p>
 					                                    
-							</div>
-					                                
+							</div>					                                
 						</header>
-
 						<ul class="host_info">
-
-							<li class="host_name">
-							                           
-								<span>Airbnb Host since: <em>2013</em></span>
-							                               
+							<li class="host_name">							                           
+								<span>Airbnb Host since: <em>2013</em></span>							                               
+							</li>							                           
+							<li class="host_visits">							                           
+								<span>Visits: <em>381</em></span>							                               
+							</li>							                           
+							<li class="host_country">							                           
+								<span>Country of Origin: <em>Greece</em></span>							                               
 							</li>
-							                           
-							<li class="host_visits">
-							                           
-								<span>Visits: <em>381</em></span>
-							                               
+							<li class="host_country">							                           
+								<span>Language(s) Spoken: <em>English, Greeek</em></span>							                               
 							</li>
-							                           
-							<li class="host_country">
-							                           
-								<span>Country of Origin: <em>Greece</em></span>
-							                               
+							<li class="host_response_timeframe">							                           
+								<span>Average Timeframe of Response: <em>1 hour</em></span>							                               
 							</li>
-
-							<li class="host_country">
-							                           
-								<span>Language(s) Spoken: <em>English, Greeek</em></span>
-							                               
-							</li>
-
-							<li class="host_response_timeframe">
-							                           
-								<span>Average Timeframe of Response: <em>1 hour</em></span>
-							                               
-							</li>
-
 							<li class="host_others">
 								<span>Hosts others: <em>Yes (2 others)</em></span>
 							</li>
-
 							<li class="lives_alone">
 								<span>Lives alone?: <em>No (With Wife and 2 kids)</em></span>
 							</li>
-
 							<li class="lives_with_pet">
 								<span>Lives with pets?: <em>No pets</em></span>
 							</li>
-
 							<li>
 								<span>Other listings by Syam Meri: <em>N/A</em></span>
 							</li>
-
-						</ul>
-						                            						
+						</ul>						                            						
 					</article>
-
 					<section id="review" class="review">
-
-						<article>
-							
+						<article>							
 							<h3>Reviews</h3>
-
-							<header>
-								
+							<header>								
 								<div class="timestamp">
 									<img class="user_avatar" src="assets/images/photo-review_user_1.png" alt="1st review user - bradley">
 									<span class="review_user">Bradley wrote a review on <em class="review_date">May 2018</em></span>
 								</div>
-
 								<ul class="review_user_info">
 									<li><span class="fa fa-map-marker"></span> Panathinaikos, Greece</li>
 									<li><span class="contributions">63 contributions</span></li>
 									<li><span class="helpful_votes">31 helpful votes</span></li>
 								</ul>
-
 							</header>
-
 							<section class="review_note">
 								<p>I once looked for a place to stay in Toronto, and was really worried. I did not like my last experience in a hotel (I wouldn't mention the name). But as the case is, it was to me, an unnecessary waste of my money. So I decided to give airbnb a go and my first few searches directed me to Brad. He was such a nice guy and attended to all my needs. He provided more than what was mentioned on this site; I was actually looking for a 6-star rating to give him.</p>
-
 								<p>You should try him out. You can hold me by my word.</p>
-
 								<ul class="note_meta">
 									<li><b>Date of Stay:</b> June 2019</li>	
 									<li><b>Type of stay:</b> Business Travel</li>
@@ -636,17 +393,12 @@
 										</ul>
 									</li>
 								</ul>
-
 							</section>
-
 							<a class="view_more" href="#">View More Reviews</a>
-
 						</article>
 
 						<article class="post_hidden">
-
-							<header>
-								
+							<header>								
 								<div class="timestamp">
 									<img class="user_avatar" src="assets/images/photo-review_user_2.png" alt="2nd review user - Provost Malouda">
 									<span class="review_user">Malouda wrote a review on <em class="review_date">June 2018</em></span>
@@ -657,9 +409,7 @@
 									<li><span class="contributions">61 contributions</span></li>
 									<li><span class="helpful_votes">41 helpful votes</span></li>
 								</ul>
-
 							</header>
-
 							<section class="review_note">
 								<p>Although, I'm back in Cuba, my stay here was great. The room and amenities (fridge, kettle, shower,etc) were more than ok. This owner is also very welcoming and helpful (maybe a little bit too much, but it's fine). They do have the customer's best interest at heart. Regarding the breakfast, I usually ate either the continental option or the Indian one. Besides, their location is really great. They are in Ikoyi, a place where people go to party and have fun (based on what I heard). So, there are a lot of restaurants, supermarkets and so on around.</p>
 
@@ -673,166 +423,98 @@
 										</ul>
 									</li>
 								</ul>
-
 							</section>
-
 						</article>
-
-					</section>							
-
-
-
+					</section>						
 				</section>
-
 				<section class="related_stays">
-
-					<h4>Related stays</h4>
-					
-					<ul class="related_stays_collection">
-						
+					<h4>Related stays</h4>					
+					<ul class="related_stays_collection">						
 						<li>
-
 							<div class="gallery_box">
-
-								<h4>Quiet Luxury Oasis In The Sky</h4>
-								
+								<h4>Quiet Luxury Oasis In The Sky</h4>								
 								<figure class="listings_img">
-
 									<img class="listings_img_single img_fluid" src="assets/images/photo_listing_2.png" alt="Shiba Room, Near Airport, Congress CTR - (listing 1)">
-
 									<figcaption>
-
 										<span class="price"><span class="symbol">$ </span>119 <span class="symbol">/</span> night</span>
-
 										<span>(
 											<b>1 Bed</b>,
 											<b>1 Bath</b>
 											)
 										</span>
-
 									</figcaption>
-
 								</figure>
-
-							</div>
-							
+							</div>							
 						</li>
-
 						<li>
-
 							<div class="gallery_box">
-
-								<h4>Hotspot Condo @ HW7 / YONGE</h4>
-								
+								<h4>Hotspot Condo @ HW7 / YONGE</h4>								
 								<figure class="listings_img">
-
 									<img class="listings_img_single img_fluid" src="assets/images/photo_listing_2.png" alt="Shiba Room, Near Airport, Congress CTR - (listing 1)">
-
 									<figcaption>
-
 										<span class="price"><span class="symbol">$ </span>123 <span class="symbol">/</span> night</span>
-
 										<span>(
 											<b>1 Bed</b>,
 											<b>1 Bath</b>
 											)
 										</span>
-
 									</figcaption>
-
 								</figure>
-
-							</div>
-							
+							</div>							
 						</li>
-
 					</ul>
-
 				</section>
-
 			</main>
-
-			<aside id="main_sidebar" class="main_sidebar" role="complementary">
-					
+			<aside id="main_sidebar" class="main_sidebar" role="complementary">					
 				<section class="location_weather">
-
-					<h3 class="title">Average Climate <span class="fa fa-thunderstorm"></span></h3>
-				
+					<h3 class="title">Average Climate <span class="fa fa-thunderstorm"></span></h3>				
 					<a class="climate_illustration" href="#">
-
 							<img src="assets/images/weather_illustration.png" alt="This is an illustration showing the recent climatic conditions of Toronto. Generally Toronto usually has 12 days a year with temperatures in the low 30s Celsius. A day can reach above 35 degrees Celsius (95 °F), but that doesn't happen every year. The 30-degree weather shows up here anytime from June to September, and very rarely as early as April.">
 					</a>
 
 				</section>
-
 				<section class="closest_airports">
-
 					<h3 class="title">Closest Airports</h3>
-
 					<ul>
 						<li>Toronto Pearson Airport, YYZ - (7km away)</li>
 						<li>Billy Bishop Toronto City Airport, YTZ - (16km away)</li>
 						<li>John Munro Int'l Airport, YHM - (20km)</li>
 						<li>Buffalo Niagara Int'l Airport, Airport, BUF - (7km away)</li>
-					</ul>
-					
+					</ul>					
 				</section>
-
 
 				<section class="get_in_touch">
-
 					<a class="request_more" href="#"><span class="fa fa-envelope"></span> REQUEST MORE DETAILS</a>
-
 					<a class="report_problem" href="#"><span class="fa fa-exclamation triangle"></span> REPORT PROBLEM WITH HOME OR HOST</a>
-
 				</section>
-
 			</aside>
-
 		</section>
-
 		<footer id="footer" class="site_footer" role="contentinfo">
-
-		    <div class="site_footer_box">
-		                            
-	            <section class="about_us">
-	            		            
-                    <h3 class="menu_head">About Us</h3>
-                    
+		    <div class="site_footer_box">		                            
+	            <section class="about_us">	            		            
+                    <h3 class="menu_head">About Us</h3>                    
                     <p>Airbnb takes a unique approach toward lodging. Part of the “sharing economy,” Airbnb offers you someone’s home as a place to stay instead of a hotel. On Airbnb, you can find places to crash on your backpacking trip through Europe, or you can find a place to stay for a month during your internship in Los Angeles. Also, if you want to rent out extra space in your own
-					home, you can host through Airbnb and make money for allowing a guest to stay.</p>
-	                		                
-	            </section>
-	            
-	            <section class="main_links">
-	                
-	                <section class="advertise_with_us">
-	                
-	                    <h3 class="menu_head">Advertise with Us</h3>
-                    		                    
+					home, you can host through Airbnb and make money for allowing a guest to stay.</p>	                		                
+	            </section>	            
+	            <section class="main_links">	                
+	                <section class="advertise_with_us">	                
+	                    <h3 class="menu_head">Advertise with Us</h3>                    		                    
                         <ul>
                             <li><a href="#">Advertise / Market Your Property</a></li>
                             <li><a href="#">Featured Real Estate Companies</a></li>
                             <li><a href="#">Place Banner Ads</a></li>
-                        </ul>
-	                        		                    
+                        </ul>	                        		                    
 	                </section>
-
-	                <section class="companies">
-	                
-	                    <h3 class="menu_head">Companies</h3>
-                    		                    
+	                <section class="companies">	                
+	                    <h3 class="menu_head">Companies</h3>                    		                    
                         <ul>
                         	<li><a href="#">Estate Agents</a></li>
                             <li><a href="#">Developers</a></li>
-                        </ul>
-	                        		                    
-	                </section>	
+                        </ul>	                        		                    
+	                </section>
 
-	                <section class="useful_links">
-	                
-	                    <h3 class="menu_head">Useful Links</h3>
-                    		                    
+	                <section class="useful_links">	                
+	                    <h3 class="menu_head">Useful Links</h3>                    		                    
                         <ul class="useful_links_list">
                         	<li><a href="#">Contact Us</a></li>
                             <li><a href="#">Top Destinations</a></li>
@@ -841,76 +523,40 @@
                             <li><a href="#">Terms of Use</a></li>
                             <li><a href="#">Holiday Advice</a></li>
                             <li><a href="#">FAQS</a></li>
-                        </ul>
-	                        		                    
+                        </ul>	                        		                    
 	                </section>	
-
-	            </section>
-	            
-	            <section class="follow_us">
-	            		                
+	            </section>	            
+	            <section class="follow_us">	            		                
                     <section>
-
-                    	<h3 class="menu_head">Follow Us</h3>
-                	          		
+                    	<h3 class="menu_head">Follow Us</h3>                	          		
 		          		<ul class="socials">
-
 	          				<li class="social_twitter">
-
 	          			  		<a class="nav_link" href="#"><i class="fa fa-twitter fa-size"></i><span>twitter</span></a>
-
 	          				</li>
-
 	      					<li class="social_facebook">
-
 	      				  		<a class="nav_link" href="#"><i class="fa fa-facebook fa-size"></i><span>facebook</span></a>
-
 	      					</li>
-
 	  						<li class="social_instagram">
-
 	  					  		<a class="nav_link" href="#"><i class="fa fa-instagram fa-size"></i><span>instagram</span></a>
-
 	  						</li>
-
 		          		</ul>
-
 		          	</section>
-
-		          	<section class="mobile_apps">
-		          		
-		          		<h3 class="menu_head">DOWNLOAD OUR MOBILE APP</h3>
-                	          		
+		          	<section class="mobile_apps">		          		
+		          		<h3 class="menu_head">DOWNLOAD OUR MOBILE APP</h3>                	          		
 		          		<ul class="app_store">
-
 	          				<li class="google_play">
-
 	          			  		<a href="#"><img src="assets/images/google_play.png" alt="Google playstore link for download"></a>
-
 	          				</li>
-
 	      					<li class="social_facebook">
-
 	      						<a href="#"><img src="assets/images/app_store_download.png" alt="App store link for download"></a>
-
 	      					</li>
-
 		          		</ul>
-
-		          	</section>
-	                        		                    		                
-	            </section>
-		                        
+		          	</section>	                        		                    		                
+	            </section>		                        
 		    </div><!--.container-->
-
 		    <img class="brand" src="assets/images/airbnb_logo_100x100.png" alt="Airbnb Logo">
-
-		    <a class="to_top" href=""><span class="fa fa-arrow-circle-up"></span></a>
-		        		
+		    <a class="to_top" href=""><span class="fa fa-arrow-circle-up"></span></a>		        		
 		</footer>
-
-	</div>	
-
+	</div>
 </body>
-
 </html>
