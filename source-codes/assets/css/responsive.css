@@ -42,6 +42,52 @@
 
 @media (min-width: 62rem) {
 
+  .navbar_box {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      background-color: rgba(0,0,0,.2);
+      justify-content: space-around;
+  }
+
+  .navbar_nav {
+    margin-right: auto;
+  }
+
+  .main_nav_links {
+    width: auto;
+  }
+
+  .main_nav_links {
+      display: flex;
+      flex-basis: auto;
+      position: relative;
+      align-self: stretch;
+      z-index: 1;
+      flex-grow: 1;
+      align-items: center;
+  }
+
+  .register {
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+  }
+
+  .navbar_nav .sub_menu ul {
+    flex: 0 0 30em;
+    width: 30em;
+    max-width: 30em;
+  }
+
+  .navbar_nav > ul, .socials, .socials > ul, .register > ul {
+    margin: 0;
+  }
+
+  .lang, .mobile, .register_btn {
+    margin-bottom: 0;
+  }
+
+
   .main_content {
     flex: 0 0 66.67%;
     max-width: 66.67%;
