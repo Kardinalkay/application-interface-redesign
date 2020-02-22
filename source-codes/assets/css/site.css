@@ -724,10 +724,6 @@ header[role=banner] {
   font-size: .9em;
 }
 
-.intro {
-  margin-bottom: 2.5em;
-}
-
 a.alert, .request_more, .report_problem {
   position: relative;
   display: inline-block;
@@ -735,9 +731,8 @@ a.alert, .request_more, .report_problem {
   padding: 10px;
   padding-left: 2em;
   background: #ebddf1;
-  width: 60%;
-  left: 40%;
-  margin-bottom: 8em;
+  width: 100%;
+  margin-bottom: 1em;
   color: var(--grey);
   transition: border, opacity, .2s;
 }
@@ -766,7 +761,7 @@ a.alert:hover {
 }
 
 .listings_img {
-  border: 4px solid var(--dodger_blue);
+  border: 3px solid var(--dodger_blue);
   /order: 3;
   margin: 1em auto;
 }
@@ -963,15 +958,14 @@ a.alert:hover {
 
 .site_footer_box {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column wrap;
   border-top: 2px solid white;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .about_us, .main_links, .follow_us {
-  max-width: 33.3%;
-  flex: 0 0 33.3%;
+  flex: 0 0 100%;
 }
 
 .site_footer .menu_head {
@@ -1007,7 +1001,6 @@ a.alert:hover {
 
 .useful_links {
   position: relative;
-  margin-right: calc(-1em - 100%);
   z-index: 1;
 }
 
@@ -1142,7 +1135,7 @@ a.alert:hover {
 }
 
 .site_footer .brand {
-  left: calc(3em + 20px + .5em);
+  right: calc(3em + 20px + .5em);
   transform: rotate(0);
   animation: spin 5s 2s backwards linear infinite;
 }
