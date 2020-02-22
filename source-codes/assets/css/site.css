@@ -102,6 +102,7 @@ fieldset {
 }
 
 label[for=location] .fa-map-marker {
+  display: none;
   color: var(--golden_rod);
   position: absolute;
   font-size: 1.3em;
@@ -355,10 +356,8 @@ header[role=banner] {
 
 .hero {
   position: relative;
-  height: 475px;
   background: #ccc;
-  margin-top: -72px;
-  background-image: url('../images/hero-bg.png');
+  margin-top: 0;
   margin-bottom: 50px;
 }
 
@@ -376,15 +375,15 @@ header[role=banner] {
 
 .hero > .frame {
   display: flex;
-  flex-wrap: nowrap;
+  flex-flow: column nowrap;
   align-items: center;
   height: inherit;
 }
 
 .listing_filters { 
   position: relative;
-  flex: 0 0 66.67%;
-  max-width: 66.67%;
+  flex: 0 0 100%;
+  max-width: 100%;
   padding-right: 15px;
   padding-left: 15px;
  }
@@ -394,9 +393,9 @@ header[role=banner] {
    display: flex;
    align-self: stretch;
    padding: 0 15px;
-   flex-direction: column;
-   flex: 0 0 33.3%;
-   max-width: 33.3%;
+   flex-direction: row-reverse;
+   flex: 0 0 100%;
+   max-width: 100%;
 }
 
 .listing_filters .watchword {
@@ -414,7 +413,7 @@ header[role=banner] {
 .form_listing_filter{
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
+  align-items: start;
   margin-bottom: 25px;
 }
 
@@ -436,11 +435,12 @@ header[role=banner] {
   border: 0;
   cursor: pointer;
   background-color: #fff;
+  order: 3;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .submit {
-  display: inline-block;
+  display: block;
   font-weight: 400;
   color: #212529;
   text-align: center;
@@ -448,20 +448,19 @@ header[role=banner] {
   user-select: none;
   background-color: var(--dodger_blue);
   border: 2px solid white;
-  border-right-width: 50px;
+  border-right-width: 2px;
   border-top-right-radius: 2px;
-  padding: 0.375rem 0.75rem;
+  padding: 0 2em;
+  margin-top: 2em;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 40px;
 }
 
 .form_listing_filter label {
-  position: absolute;
-  top: 3px;
-  left: 2.5em;
-  font-size: .6em;
-  display: inline-block;
   font-weight: 900;
+  font-size: .9em;
+  color: var(--white);
+  order: -1;
 }
 
 .form_listing_filter label span {
@@ -478,6 +477,7 @@ header[role=banner] {
   font-weight: 300;
   padding: 1em;
   border: 0;
+  margin-bottom: 1em;
   font-size: .9em;
   background: var(--black);
   color: var(--light_grey);
@@ -1540,54 +1540,21 @@ a.request_more .fa, a.report_problem .fa {
 }
 
 
+@media (min-width: 992px) {
 
-@media (min-width: 576px) {
-.navbar_box, .hero > .frame, .body_content, .site_footer_box {
-    max-width: 33.75rem;
-  }
-}
-
-@media (min-width: 768px) {
-.navbar_box, .hero > .frame, .body_content, .site_footer_box {
-    max-width: 45rem;
-  }
 }
 
 @media (min-width: 992px) {
-.navbar_box, .hero > .frame, .body_content, .site_footer_box {
-    max-width: 60rem;
-  }
-}
 
-@media (min-width: 1200px) {
-.navbar_box, .hero > .frame, .body_content, .site_footer_box  {
-    max-width: 71.25rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .navbar {
-      flex-flow: row nowrap;
-  }
-}
-
-@media (min-width: 992px) {
-  .navbar_box {
-      flex-wrap: nowrap;
-  }
 }
 
 
 @media (min-width: 992px) {
-  .navbar_box .navbar-toggler, .toggle_menu {
-     display: none;
-  }
+
 }
 
 @media (min-width: 992px) {
-.navbar_nav > ul, .socials > ul, .socials, .register > ul {
-      flex-direction: row;
-  }
+
 }
 
 @media (min-width: 576px) {
