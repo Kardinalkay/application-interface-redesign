@@ -1,6 +1,6 @@
 Project URL: https://kode-sektor.github.io/application-interface-redesign/source-codes/index.htm
 
-<img src="airbnb-redesign.png" alt="airbnb redesign" />
+<img src="source-codes/assets/images/airbnb-redesign.png" alt="airbnb redesign" />
 
 # application-interface-redesign
 
