@@ -4,4 +4,4 @@ Project URL: https://kode-sektor.github.io/application-interface-redesign/source
 
 # application-interface-redesign
 
-This is a project that aims to re-brand the AirBnb website 
+This is a project that aims to re-brand the AirBnb website changing its theme, colours, calls-to-action, structure and entire layout with respect to UI/UX principles.
